@@ -36,12 +36,16 @@ func slashSplitter(c rune) bool {
 
 func readPoints(config *toml.Tree, con *client.Client) {
     args := []string{"-B 1", "-D", "-r0", "-O 0", "-Q 10", "-p 1000", "-l"}
-    hosts := config.Get("hosts.hosts").([]interface{})
+    ConfigHosts := config.Get("hosts").(*toml.Tree)
+    hosts := ConfigHosts.ToMap()
+    IPs := []string{}
     for _, v := range hosts {
-        host, _ := v.(string)
-        args = append(args, host)
+        log.Print(v)
+        IP := v.(map[string]interface{})["ip"].(string)
+        IPs = append(IPs, IP)
     }
-    log.Printf("Going to ping the following hosts: %q", hosts)
+    args = append(args, IPs...)
+    log.Printf("Going to ping the following hosts: %q", IPs)
     cmd := exec.Command("/usr/bin/fping", args...)
     stdout, err := cmd.StdoutPipe()
     herr(err)
@@ -81,6 +85,7 @@ func readPoints(config *toml.Tree, con *client.Client) {
 
 func writePoints(config *toml.Tree, con *client.Client, host string, sent string, recv string, lossp string, min string, avg string, max string) {
     db := config.Get("influxdb.db").(string)
+    hostDetails := config.Get("hosts."+strings.ReplaceAll(host, ".", "_")).(*toml.Tree)
     loss, _ := strconv.Atoi(lossp)
     pts := make([]client.Point, 1)
     fields := map[string]interface{}{}
@@ -103,6 +108,8 @@ func writePoints(config *toml.Tree, con *client.Client, host string, sent string
         Measurement: "ping",
         Tags: map[string]string{
             "host": host,
+            "identifier": config.Get("identifier").(string),
+            "description": hostDetails.Get("description").(string),
         },
         Fields: fields,
         Time: time.Now(),
@@ -112,7 +119,7 @@ func writePoints(config *toml.Tree, con *client.Client, host string, sent string
     bps := client.BatchPoints{
         Points:          pts,
         Database:        db,
-        RetentionPolicy: "fifteen_days",
+        RetentionPolicy: "autogen",
     }
     _, err := con.Write(bps)
     if err != nil {
@@ -154,6 +161,8 @@ func main() {
         log.Fatal(err)
     }
     log.Printf("Connected to influxdb! %v, %s", dur, ver)
+
+
 
     readPoints(config, con)
 }

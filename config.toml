@@ -1,0 +1,3000 @@
+identifier = "Superloop - Hobart"
+
+[influxdb]
+
+host = "192.168.1.199"
+port = "8086"
+db = "pingz"
+user = "root"
+pass = "root"
+
+[hosts]
+
+[hosts.www_akamai_com]
+ip = "www.akamai.com"
+description = "[CDN] Akamai [www.akamai.com]"
+
+[hosts.dq1dnt4af4eyy_cloudfront_net]
+ip = "dq1dnt4af4eyy.cloudfront.net"
+description = "[CDN] Amazon CloudFront [dq1dnt4af4eyy.cloudfront.net]"
+
+[hosts.automattic_com]
+ip = "automattic.com"
+description = "[CDN] Automattic, Inc. (WordPress.com et al.) [automattic.com]"
+
+[hosts.bunnycdn_com]
+ip = "bunnycdn.com"
+description = "[CDN] BunnyCDN [bunnycdn.com]"
+
+[hosts.198_251_86_22]
+ip = "198.251.86.22"
+description = "[CDN] BuyVM Anycast [198.251.86.22]"
+
+[hosts.cachefly_cachefly_net]
+ip = "cachefly.cachefly.net"
+description = "[CDN] CacheFly [cachefly.cachefly.net]"
+
+[hosts.www_cdn77_com]
+ip = "www.cdn77.com"
+description = "[CDN] CDN77.com [www.cdn77.com]"
+
+[hosts.219848522_r_worldcdn_net]
+ip = "219848522.r.worldcdn.net"
+description = "[CDN] CDN.net CDN-X (Western Hemisphere) [219848522.r.worldcdn.net]"
+
+[hosts.31560279_r_worldcdn_net]
+ip = "31560279.r.worldcdn.net"
+description = "[CDN] CDN.net CDN-EXEC (Northern Hemisphere) [31560279.r.worldcdn.net]"
+
+[hosts.993660212_r_worldcdn_net]
+ip = "993660212.r.worldcdn.net"
+description = "[CDN] CDN.net CDN-LUX (Global) [993660212.r.worldcdn.net]"
+
+[hosts.185_228_168_168]
+ip = "185.228.168.168"
+description = "[CDN] ClearBrowsing DNS @ CIDNOC AS205157 [185.228.168.168]"
+
+[hosts.cloudflare_com]
+ip = "cloudflare.com"
+description = "[CDN] Cloudflare [cloudflare.com]"
+
+[hosts.dropbox_com]
+ip = "dropbox.com"
+description = "[CDN] Dropbox [dropbox.com]"
+
+[hosts.facebook_com]
+ip = "facebook.com"
+description = "[CDN] Facebook [facebook.com]"
+
+[hosts.cdn-fastly_deb_debian_org]
+ip = "cdn-fastly.deb.debian.org"
+description = "[CDN] Fastly [cdn-fastly.deb.debian.org]"
+
+[hosts.github_com]
+ip = "github.com"
+description = "[CDN] GitHub [github.com]"
+
+[hosts.d_gcdn_co]
+ip = "d.gcdn.co"
+description = "[CDN] G-Core Labs CDN [d.gcdn.co]"
+
+[hosts.cloud_google_com]
+ip = "cloud.google.com"
+description = "[CDN] Google Cloud Platform [cloud.google.com]"
+
+[hosts.8_8_8_8]
+ip = "8.8.8.8"
+description = "[CDN] Google DNS [8.8.8.8]"
+
+[hosts.www_incapsula_com]
+ip = "www.incapsula.com"
+description = "[CDN] Imperva Incapsula [www.incapsula.com]"
+
+[hosts.www_ionos_com]
+ip = "www.ionos.com"
+description = "[CDN] 1&1 IONOS (United Internet) [www.ionos.com]"
+
+[hosts.cdn_jsdelivr_net]
+ip = "cdn.jsdelivr.net"
+description = "[CDN] jsDelivr [cdn.jsdelivr.net]"
+
+[hosts.www_keycdn_com]
+ip = "www.keycdn.com"
+description = "[CDN] KeyCDN [www.keycdn.com]"
+
+[hosts.4_2_2_1]
+ip = "4.2.2.1"
+description = "[CDN] Level 3 DNS Resolver [4.2.2.1]"
+
+[hosts.mirrors_edge_kernel_org]
+ip = "mirrors.edge.kernel.org"
+description = "[CDN] The Linux Kernel Archives (kernel.org) @ Packet Host [mirrors.edge.kernel.org]"
+
+[hosts.bing_com]
+ip = "bing.com"
+description = "[CDN] Microsoft (*.msedge.net) [bing.com]"
+
+[hosts.www_outlook_com]
+ip = "www.outlook.com"
+description = "[CDN] Microsoft Office 365 ACDC [www.outlook.com]"
+
+[hosts.208_67_222_222]
+ip = "208.67.222.222"
+description = "[CDN] OpenDNS [208.67.222.222]"
+
+[hosts.psychz_net]
+ip = "psychz.net"
+description = "[CDN] Psychz [psychz.net]"
+
+[hosts.9_9_9_9]
+ip = "9.9.9.9"
+description = "[CDN] Quad9 DNS [9.9.9.9]"
+
+[hosts.en_wangsu_com]
+ip = "en.wangsu.com"
+description = "[CDN] QUANTIL / Wangsu / ChinaNetCenter (Overseas) [en.wangsu.com]"
+
+[hosts.www_stackpath_com]
+ip = "www.stackpath.com"
+description = "[CDN] StackPath [www.stackpath.com]"
+
+[hosts.twitter_com]
+ip = "twitter.com"
+description = "[CDN] Twitter [twitter.com]"
+
+[hosts.www_verizondigitalmedia_com]
+ip = "www.verizondigitalmedia.com"
+description = "[CDN] Verizon Edgecast [www.verizondigitalmedia.com]"
+
+[hosts.wikimedia_org]
+ip = "wikimedia.org"
+description = "[CDN] Wikimedia Foundation [wikimedia.org]"
+
+[hosts.www_yahoo_com]
+ip = "www.yahoo.com"
+description = "[CDN] Yahoo [www.yahoo.com]"
+
+[hosts.mirror_it_ubc_ca]
+ip = "mirror.it.ubc.ca"
+description = "[CA/BC] The University of British Columbia - Vancouver, British Columbia [mirror.it.ubc.ca]"
+
+[hosts.vancnspd01_srvr_bell_ca]
+ip = "vancnspd01.srvr.bell.ca"
+description = "[CA/BC] Bell - Vancouver, British Columbia [vancnspd01.srvr.bell.ca]"
+
+[hosts.172_93_32_16]
+ip = "172.93.32.16"
+description = "[CA/BC] Bandwagonhost (IT7 Networks) - Vancouver, British Columbia [172.93.32.16]"
+
+[hosts.23_111_64_1]
+ip = "23.111.64.1"
+description = "[CA/BC] Canadianwebhosting - Vancouver, British Columbia [23.111.64.1]"
+
+[hosts.van_lg_freerangecloud_com]
+ip = "van.lg.freerangecloud.com"
+description = "[CA/BC] Free Range Cloud - Vancouver, British Columbia [van.lg.freerangecloud.com]"
+
+[hosts.lg_vancouver_fullhost_com]
+ip = "lg.vancouver.fullhost.com"
+description = "[CA/BC] FullHost - Vancouver, British Columbia [lg.vancouver.fullhost.com]"
+
+[hosts.speedtestbcvan_rogers_com]
+ip = "speedtestbcvan.rogers.com"
+description = "[CA/BC] Rogers - Vancouver, British Columbia [speedtestbcvan.rogers.com]"
+
+[hosts.speedtest_vc_shawcable_net]
+ip = "speedtest.vc.shawcable.net"
+description = "[CA/BC] Shaw - Vancouver, British Columbia [speedtest.vc.shawcable.net]"
+
+[hosts.vancouver_speedtest_telus_com]
+ip = "vancouver.speedtest.telus.com"
+description = "[CA/BC] TELUS - Vancouver, British Columbia [vancouver.speedtest.telus.com]"
+
+[hosts.lg_sea_colocrossing_com]
+ip = "lg.sea.colocrossing.com"
+description = "[US/WA] ColoCrossing - Seattle, Washington [lg.sea.colocrossing.com]"
+
+[hosts.stosat-rvlt-01_sys_comcast_net]
+ip = "stosat-rvlt-01.sys.comcast.net"
+description = "[US/WA] Comcast - Seattle, Washington [stosat-rvlt-01.sys.comcast.net]"
+
+[hosts.38_91_102_162]
+ip = "38.91.102.162"
+description = "[US/WA] GTHost (GlobalTeleHost Corp.) - Seattle, United States [38.91.102.162]"
+
+[hosts.10gseattle_incero_com]
+ip = "10gseattle.incero.com"
+description = "[US/WA] Incero - Seattle, Washington [10gseattle.incero.com]"
+
+[hosts.lg_ionswitch_com]
+ip = "lg.ionswitch.com"
+description = "[US/WA] IonSwitch - Seattle, Washington [lg.ionswitch.com]"
+
+[hosts.192_223_25_100]
+ip = "192.223.25.100"
+description = "[US/WA] NFOservers - Seattle, Washington [192.223.25.100]"
+
+[hosts.lg_sea_ramnode_com]
+ip = "lg.sea.ramnode.com"
+description = "[US/WA] RamNode - Seattle, Washington [lg.sea.ramnode.com]"
+
+[hosts.lg_sea_spartanhost_net]
+ip = "lg.sea.spartanhost.net"
+description = "[US/WA] SpartanHost - Seattle, Washington [lg.sea.spartanhost.net]"
+
+[hosts.sea_lg_virmach_com]
+ip = "sea.lg.virmach.com"
+description = "[US/WA] Virmach @ ServerHub - Seattle, Washington [sea.lg.virmach.com]"
+
+[hosts.lg_seadedicated_com]
+ip = "lg.seadedicated.com"
+description = "[US/WA] US Dedicated @ InterNAP SEF - Seattle, Washington [lg.seadedicated.com]"
+
+[hosts.wa-us-ping_vultr_com]
+ip = "wa-us-ping.vultr.com"
+description = "[US/WA] Vultr / Choopa - Seattle, Washington [wa-us-ping.vultr.com]"
+
+[hosts.sea_speedtest_sbcglobal_net]
+ip = "sea.speedtest.sbcglobal.net"
+description = "[US/WA] AT&T - Seattle, Washington [sea.speedtest.sbcglobal.net]"
+
+[hosts.seattle_speedtest_centurylink_net]
+ip = "seattle.speedtest.centurylink.net"
+description = "[US/WA] CenturyLink - Seattle, Washington [seattle.speedtest.centurylink.net]"
+
+[hosts.54_188_0_0]
+ip = "54.188.0.0"
+description = "[US/OR] Amazon Web Services - Oregon (us-west-2) [54.188.0.0]"
+
+[hosts.lg_cera-ncp_pdx_50network_com]
+ip = "lg.cera-ncp.pdx.50network.com"
+description = "[US/OR] 50KVM @ CeraNetworks - Portland, Oregon [lg.cera-ncp.pdx.50network.com]"
+
+[hosts.us-west1-gce_cloudharmony_net]
+ip = "us-west1-gce.cloudharmony.net"
+description = "[US/OR] Google Cloud Platform - Oregon (us-west-1) via CloudHarmony [us-west1-gce.cloudharmony.net]"
+
+[hosts.pdx1-hil_smokeping_ovh_net]
+ip = "pdx1-hil.smokeping.ovh.net"
+description = "[US/OR] OVH - Hillsboro, Oregon [pdx1-hil.smokeping.ovh.net]"
+
+[hosts.198_57_47_4]
+ip = "198.57.47.4"
+description = "[US/OR] SecureDragon @ CNServers - Portland, Oregon [198.57.47.4]"
+
+[hosts.spt01mdfdor_mdfd_or_charter_com]
+ip = "spt01mdfdor.mdfd.or.charter.com"
+description = "[US/OR] Charter - Medford, OR, US [spt01mdfdor.mdfd.or.charter.com]"
+
+[hosts.speedtest_ok_shawcable_net]
+ip = "speedtest.ok.shawcable.net"
+description = "[CA/BC] Shaw - Kelowna, British Columbia [speedtest.ok.shawcable.net]"
+
+[hosts.speedtestcalgary_rogers_com]
+ip = "speedtestcalgary.rogers.com"
+description = "[CA/AB] Rogers (Calgary) [speedtestcalgary.rogers.com]"
+
+[hosts.speedtest_cg_shawcable_net]
+ip = "speedtest.cg.shawcable.net"
+description = "[CA/AB] Shaw - Calgary, Alberta [speedtest.cg.shawcable.net]"
+
+[hosts.calgary_speedtest_telus_com]
+ip = "calgary.speedtest.telus.com"
+description = "[CA/AB] TELUS - Calgary, Alberta [calgary.speedtest.telus.com]"
+
+[hosts.speedtestedmonton_rogers_com]
+ip = "speedtestedmonton.rogers.com"
+description = "[CA/AB] Rogers - Edmonton, Alberta [speedtestedmonton.rogers.com]"
+
+[hosts.speedtest_ed_shawcable_net]
+ip = "speedtest.ed.shawcable.net"
+description = "[CA/AB] Shaw - Edmonton, Alberta [speedtest.ed.shawcable.net]"
+
+[hosts.edmonton_speedtest_telus_com]
+ip = "edmonton.speedtest.telus.com"
+description = "[CA/AB] TELUS - Edmonton, Alberta [edmonton.speedtest.telus.com]"
+
+[hosts.wh-netspeed_nwtel_ca]
+ip = "wh-netspeed.nwtel.ca"
+description = "[CA/YT] Northwestel - Whitehorse, Yukon [wh-netspeed.nwtel.ca]"
+
+[hosts.speedtest_anc_acsalaska_net]
+ip = "speedtest.anc.acsalaska.net"
+description = "[US/AK] Alaska Communications [speedtest.anc.acsalaska.net]"
+
+[hosts.www_archive_org]
+ip = "www.archive.org"
+description = "[US/CA] Internet Archive [www.archive.org]"
+
+[hosts.mirrors_ocf_berkeley_edu]
+ip = "mirrors.ocf.berkeley.edu"
+description = "[US/CA] University of California, Berkeley - Berkeley, CA, US [mirrors.ocf.berkeley.edu]"
+
+[hosts.oss-us-west-1_aliyuncs_com]
+ip = "oss-us-west-1.aliyuncs.com"
+description = "[US/CA] Aliyun / Alibaba Cloud - Silicon Valley (us-west-1) [oss-us-west-1.aliyuncs.com]"
+
+[hosts.54_151_0_2]
+ip = "54.151.0.2"
+description = "[US/CA] Amazon Web Services - North California (us-west-1) [54.151.0.2]"
+
+[hosts.speedtest-sfo1_digitalocean_com]
+ip = "speedtest-sfo1.digitalocean.com"
+description = "[US/CA] Digital Ocean - San Francisco, California [speedtest-sfo1.digitalocean.com]"
+
+[hosts.fmt_lg_freerangecloud_com]
+ip = "fmt.lg.freerangecloud.com"
+description = "[US/CA] Free Range Cloud - Fremont, California [fmt.lg.freerangecloud.com]"
+
+[hosts.fremont_lg_ftpit_com]
+ip = "fremont.lg.ftpit.com"
+description = "[US/CA] FTPit (Komputer King LLC) - Fremont, California [fremont.lg.ftpit.com]"
+
+[hosts.speedtest_fremont_linode_com]
+ip = "speedtest.fremont.linode.com"
+description = "[US/CA] Linode - Fremont, California [speedtest.fremont.linode.com]"
+
+[hosts.mirror_sfo12_us_leaseweb_net]
+ip = "mirror.sfo12.us.leaseweb.net"
+description = "[US/CA] LeaseWeb - San Francisco, California [mirror.sfo12.us.leaseweb.net]"
+
+[hosts.66_151_138_9]
+ip = "66.151.138.9"
+description = "[US/CA] NFOservers @ InterNAP - San Jose, California [66.151.138.9]"
+
+[hosts.speedtest_sjc01_softlayer_com]
+ip = "speedtest.sjc01.softlayer.com"
+description = "[US/CA] SoftLayer - San Jose, California [speedtest.sjc01.softlayer.com]"
+
+[hosts.cos_na-siliconvalley_myqcloud_com]
+ip = "cos.na-siliconvalley.myqcloud.com"
+description = "[US/CA] Tencent Cloud - Silicon Valley, United States [cos.na-siliconvalley.myqcloud.com]"
+
+[hosts.sjo-ca-us-ping_vultr_com]
+ip = "sjo-ca-us-ping.vultr.com"
+description = "[US/CA] Vultr / Choopa - Silicon Valley [sjo-ca-us-ping.vultr.com]"
+
+[hosts.mirrors_xtom_com]
+ip = "mirrors.xtom.com"
+description = "[US/CA] xTom - Fremont, California [mirrors.xtom.com]"
+
+[hosts.118_184_73_35]
+ip = "118.184.73.35"
+description = "[US/CA] Anchnet - Los Angeles, California (CN2) [118.184.73.35]"
+
+[hosts.lg_lax_anynode_net]
+ip = "lg.lax.anynode.net"
+description = "[US/CA] anyNode - Los Angeles, California [lg.lax.anynode.net]"
+
+[hosts.lax_speedtest_sbcglobal_net]
+ip = "lax.speedtest.sbcglobal.net"
+description = "[US/CA] AT&T - Los Angeles, CA, US [lax.speedtest.sbcglobal.net]"
+
+[hosts.23_252_99_102]
+ip = "23.252.99.102"
+description = "[US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC8 CN2 @ C3 Networks) [23.252.99.102]"
+
+[hosts.65_49_131_102]
+ip = "65.49.131.102"
+description = "[US/CA] BandwagonHost (IT7 Networks) - Los Angeles, California (DC9 CN2 GIA) [65.49.131.102]"
+
+[hosts.172_82_152_3]
+ip = "172.82.152.3"
+description = "[US/CA] BudgetNode - Los Angeles, California [172.82.152.3]"
+
+[hosts.lg_cera-163_lax_50network_com]
+ip = "lg.cera-163.lax.50network.com"
+description = "[US/CA] 50KVM @ CeraNetworks - Los Angeles, California [lg.cera-163.lax.50network.com]"
+
+[hosts.104_192_111_1]
+ip = "104.192.111.1"
+description = "[US/CA] China Telecom Global (ctamericas.com) - Los Angeles, California [104.192.111.1]"
+
+[hosts.la_lg_cloudc_one]
+ip = "la.lg.cloudc.one"
+description = "[US/CA] CloudCone @ MULTACOM - Los Angeles, California [la.lg.cloudc.one]"
+
+[hosts.lg_la_colocrossing_com]
+ip = "lg.la.colocrossing.com"
+description = "[US/CA] ColoCrossing - Los Angeles, California [lg.la.colocrossing.com]"
+
+[hosts.speedtest_c1_lax1_dediserve_com]
+ip = "speedtest.c1.lax1.dediserve.com"
+description = "[US/CA] Dediserve - Los Angeles, California [speedtest.c1.lax1.dediserve.com]"
+
+[hosts.162_251_63_162]
+ip = "162.251.63.162"
+description = "[US/CA] GTHost (GlobalTeleHost Corp.) - Los Angeles, United States [162.251.63.162]"
+
+[hosts.lg_lax_hosthatch_com]
+ip = "lg.lax.hosthatch.com"
+description = "[US/CA] HostHatch - Los Angeles, California [lg.lax.hosthatch.com]"
+
+[hosts.lax2_lg_klayer_com]
+ip = "lax2.lg.klayer.com"
+description = "[US/CA] KLayer @ Zenlayer - Los Angeles, California [lax2.lg.klayer.com]"
+
+[hosts.lg_la_letbox_com]
+ip = "lg.la.letbox.com"
+description = "[US/CA] LetBox @ Psychz - Los Angeles, California [lg.la.letbox.com]"
+
+[hosts.66_150_188_101]
+ip = "66.150.188.101"
+description = "[US/CA] NFOservers - Los Angeles, California [66.150.188.101]"
+
+[hosts.lg_lax_psychz_net]
+ip = "lg.lax.psychz.net"
+description = "[US/CA] Psychz - Los Angeles, California [lg.lax.psychz.net]"
+
+[hosts.172_106_4_54]
+ip = "172.106.4.54"
+description = "[US/CA] Psychz CN2 - Los Angeles, California [172.106.4.54]"
+
+[hosts.198_55_111_5]
+ip = "198.55.111.5"
+description = "[US/CA] QuadraNet - Los Angeles, California [198.55.111.5]"
+
+[hosts.204_152_218_25]
+ip = "204.152.218.25"
+description = "[US/CA] QuadraNet Asia Optimized - Los Angeles, California [204.152.218.25]"
+
+[hosts.lg_la_ramnode_com]
+ip = "lg.la.ramnode.com"
+description = "[US/CA] Ramnode - Los Angeles, California [lg.la.ramnode.com]"
+
+[hosts.los-angeles-speedtest_reliablesite_net]
+ip = "los-angeles-speedtest.reliablesite.net"
+description = "[US/CA] ReliableSite - Los Angeles, CA, US [los-angeles-speedtest.reliablesite.net]"
+
+[hosts.103_86_70_1]
+ip = "103.86.70.1"
+description = "[US/CA] RFCHost / Huajuan / BetaIDC - Los Angeles, California [103.86.70.1]"
+
+[hosts.103_105_49_34]
+ip = "103.105.49.34"
+description = "[US/CA] VMHaus - Los Angeles, California [103.105.49.34]"
+
+[hosts.filtered-la_lg_virmach_com]
+ip = "filtered-la.lg.virmach.com"
+description = "[US/CA] Virmach @ Voxility - Los Angeles, DDOS Protected [filtered-la.lg.virmach.com]"
+
+[hosts.lax-ca-us-ping_vultr_com]
+ip = "lax-ca-us-ping.vultr.com"
+description = "[US/CA] Vultr / Choopa - Los Angeles, California [lax-ca-us-ping.vultr.com]"
+
+[hosts.stosat-scrm-01_sys_comcast_net]
+ip = "stosat-scrm-01.sys.comcast.net"
+description = "[US/CA] Comcast - Sacramento, CA, US [stosat-scrm-01.sys.comcast.net]"
+
+[hosts.speedtest_rd_sd_cox_net]
+ip = "speedtest.rd.sd.cox.net"
+description = "[US/CA] Cox Communications - San Diego, CA, US [speedtest.rd.sd.cox.net]"
+
+[hosts.speedtest_lv_buyvm_net]
+ip = "speedtest.lv.buyvm.net"
+description = "[US/NV] BuyVM - Las Vegas, Nevada [speedtest.lv.buyvm.net]"
+
+[hosts.198_251_80_221]
+ip = "198.251.80.221"
+description = "[US/NV] BuyVM @ Voxility (DDOS Protected) - Las Vegas, Nevada [198.251.80.221]"
+
+[hosts.lasvegas_speedtest_centurylink_net]
+ip = "lasvegas.speedtest.centurylink.net"
+description = "[US/NV] CenturyLink - Las Vegas, NV, US [lasvegas.speedtest.centurylink.net]"
+
+[hosts.199_43_206_3]
+ip = "199.43.206.3"
+description = "[US/NV] SmartHost - Las Vegas, Nevada [199.43.206.3]"
+
+[hosts.spt01renonv_reno_nv_charter_com]
+ip = "spt01renonv.reno.nv.charter.com"
+description = "[US/NV] Charter - Reno, NV, US [spt01renonv.reno.nv.charter.com]"
+
+[hosts.ioflood_com]
+ip = "ioflood.com"
+description = "[US/AZ] IOFLOOD - Phoenix, Arizona [ioflood.com]"
+
+[hosts.162_253_177_4]
+ip = "162.253.177.4"
+description = "[US/AZ] SecureDragon @ PhoenixNAP - Phoenix, Arizona [162.253.177.4]"
+
+[hosts.phx_lg_virmach_com]
+ip = "phx.lg.virmach.com"
+description = "[US/AZ] Virmach @ ServerHub - Phoenix, Arizona [phx.lg.virmach.com]"
+
+[hosts.saltlakecity2_speedtest_centurylink_net]
+ip = "saltlakecity2.speedtest.centurylink.net"
+description = "[US/UT] CenturyLink - Salt Lake City, UT, US [saltlakecity2.speedtest.centurylink.net]"
+
+[hosts.stosat-utah-01_sys_comcast_net]
+ip = "stosat-utah-01.sys.comcast.net"
+description = "[US/UT] Comcast - Salt Lake City, UT, US [stosat-utah-01.sys.comcast.net]"
+
+[hosts.ogd_lg_budgetnode_net]
+ip = "ogd.lg.budgetnode.net"
+description = "[US/UT] BudgetNode - Ogden, Utah [ogd.lg.budgetnode.net]"
+
+[hosts.xmission_com]
+ip = "xmission.com"
+description = "[US/UT] XMission - Salt Lake City, Utah, US [xmission.com]"
+
+[hosts.speedtest_tijuana_izzi_mx]
+ip = "speedtest.tijuana.izzi.mx"
+description = "[MX] IZZI - Tijuana, Mexico [speedtest.tijuana.izzi.mx]"
+
+[hosts.core1_hnl1_he_net]
+ip = "core1.hnl1.he.net"
+description = "[US/HI] Hurricane Electric @ DRFortress - Honolulu, Hawaii [core1.hnl1.he.net]"
+
+[hosts.debian_uchicago_edu]
+ip = "debian.uchicago.edu"
+description = "[US/IL] University of Chicago - Chicago, IL, US [debian.uchicago.edu]"
+
+[hosts.66_225_198_198]
+ip = "66.225.198.198"
+description = "[US/IL] ColoCrossing - Chicago, Illinois [66.225.198.198]"
+
+[hosts.stosat-chic-01_sys_comcast_net]
+ip = "stosat-chic-01.sys.comcast.net"
+description = "[US/IL] Comcast - Chicago, IL, US [stosat-chic-01.sys.comcast.net]"
+
+[hosts.speedtest_c1_chg1_dediserve_com]
+ip = "speedtest.c1.chg1.dediserve.com"
+description = "[US/IL] Dediserve - Chicago, Illinois, USA [speedtest.c1.chg1.dediserve.com]"
+
+[hosts.162_251_60_162]
+ip = "162.251.60.162"
+description = "[US/IL] GTHost (GlobalTeleHost Corp.) - Chicago, United States [162.251.60.162]"
+
+[hosts.181_214_61_207]
+ip = "181.214.61.207"
+description = "[US/IL] Heficed (Digital Energy Technologies Ltd.) FKA Host1Plus - Chicago, Illinois [181.214.61.207]"
+
+[hosts.216_52_148_4]
+ip = "216.52.148.4"
+description = "[US/IL] NFOservers - Chicago, Illinois [216.52.148.4]"
+
+[hosts.lg_chi_psychz_net]
+ip = "lg.chi.psychz.net"
+description = "[US/IL] Psychz - Chicago, Illinois [lg.chi.psychz.net]"
+
+[hosts.104_129_31_245]
+ip = "104.129.31.245"
+description = "[US/IL] QuadraNet - Chicago, Illinois [104.129.31.245]"
+
+[hosts.ord_speedtest_rackspace_com]
+ip = "ord.speedtest.rackspace.com"
+description = "[US/IL] Rackspace - Chicago, Illinois [ord.speedtest.rackspace.com]"
+
+[hosts.lookingglass_chi_steadfast_net]
+ip = "lookingglass.chi.steadfast.net"
+description = "[US/IL] Steadfast - Chicago, Illinois [lookingglass.chi.steadfast.net]"
+
+[hosts.il-us-ping_vultr_com]
+ip = "il-us-ping.vultr.com"
+description = "[US/IL] Vultr - Chicago, Illinois [il-us-ping.vultr.com]"
+
+[hosts.chi_speedtest_sbcglobal_net]
+ip = "chi.speedtest.sbcglobal.net"
+description = "[US/IL] AT&T - Cicero, IL, US [chi.speedtest.sbcglobal.net]"
+
+[hosts.chicago_speedtest_centurylink_net]
+ip = "chicago.speedtest.centurylink.net"
+description = "[US/IL] CenturyLink - Chicago, IL, US [chicago.speedtest.centurylink.net]"
+
+[hosts.67_231_25_1]
+ip = "67.231.25.1"
+description = "[CA/ON] Canadianwebhosting - Toronto, Ontario [67.231.25.1]"
+
+[hosts.speedtest_c1_tor1_dediserve_com]
+ip = "speedtest.c1.tor1.dediserve.com"
+description = "[CA/ON] Dediserve - Toronto, Ontario, Canada [speedtest.c1.tor1.dediserve.com]"
+
+[hosts.speedtest-tor1_digitalocean_com]
+ip = "speedtest-tor1.digitalocean.com"
+description = "[CA/ON] DigitalOcean (TOR1) - Toronto, Canada [speedtest-tor1.digitalocean.com]"
+
+[hosts.lg_toronto_fullhost_com]
+ip = "lg.toronto.fullhost.com"
+description = "[CA/ON] FullHost - Toronto, Canada [lg.toronto.fullhost.com]"
+
+[hosts.198_57_26_164]
+ip = "198.57.26.164"
+description = "[CA/ON] GTHost (GlobalTeleHost Corp.) - Toronto, Canada [198.57.26.164]"
+
+[hosts.speedtest_tor1_linode_com]
+ip = "speedtest.tor1.linode.com"
+description = "[CA/ON] Linode - Toronto, Canada [speedtest.tor1.linode.com]"
+
+[hosts.toronto-test_lunanode_com]
+ip = "toronto-test.lunanode.com"
+description = "[CA/ON] LunaNode - Toronto, Canada [toronto-test.lunanode.com]"
+
+[hosts.speedtest_tor01_softlayer_com]
+ip = "speedtest.tor01.softlayer.com"
+description = "[CA/ON] SoftLayer (tor01) - Toronto, Canada [speedtest.tor01.softlayer.com]"
+
+[hosts.cos_na-toronto_myqcloud_com]
+ip = "cos.na-toronto.myqcloud.com"
+description = "[CA/ON] Tencent Cloud - Toronto, Canada [cos.na-toronto.myqcloud.com]"
+
+[hosts.tor-ca-ping_vultr_com]
+ip = "tor-ca-ping.vultr.com"
+description = "[CA/ON] Vultr - Toronto, Ontario, Canada [tor-ca-ping.vultr.com]"
+
+[hosts.utoronto_ca]
+ip = "utoronto.ca"
+description = "[CA/ON] University of Toronto - Toronto, Canada [utoronto.ca]"
+
+[hosts.mirror_csclub_uwaterloo_ca]
+ip = "mirror.csclub.uwaterloo.ca"
+description = "[CA/ON] University of Waterloo - Waterloo, Canada [mirror.csclub.uwaterloo.ca]"
+
+[hosts.speedtestslnt_rogers_com]
+ip = "speedtestslnt.rogers.com"
+description = "[CA/ON] Rogers - Ottawa, Ontario, Canada [speedtestslnt.rogers.com]"
+
+[hosts.stosat-dvre-01_sys_comcast_net]
+ip = "stosat-dvre-01.sys.comcast.net"
+description = "[US/CO] Comcast - Denver, CO, US [stosat-dvre-01.sys.comcast.net]"
+
+[hosts.4_69_203_238]
+ip = "4.69.203.238"
+description = "[US/CO] Level 3 - Denver, Colorado [4.69.203.238]"
+
+[hosts.192_199_242_2]
+ip = "192.199.242.2"
+description = "[US/CO] SmartHost - Denver, Colorado [192.199.242.2]"
+
+[hosts.198_57_46_4]
+ip = "198.57.46.4"
+description = "[US/CO] SecureDragon @ Handy Networks - Denver, CO, United States [198.57.46.4]"
+
+[hosts.198_204_225_10]
+ip = "198.204.225.10"
+description = "[US/MO] Dedispec - Kansas City, Missouri [198.204.225.10]"
+
+[hosts.lg_joesdatacenter_com]
+ip = "lg.joesdatacenter.com"
+description = "[US/MO] Joe's Datacenter - Kansas City, Missouri [lg.joesdatacenter.com]"
+
+[hosts.ns2_unrealservers_net]
+ip = "ns2.unrealservers.net"
+description = "[US/MO] UnrealServers - Kansas City, Missouri [ns2.unrealservers.net]"
+
+[hosts.cedar-rapids_speedtest_centurylink_net]
+ip = "cedar-rapids.speedtest.centurylink.net"
+description = "[US/IA] CenturyLink - Cedar Rapids, IA, US [cedar-rapids.speedtest.centurylink.net]"
+
+[hosts.us-central1-gce_cloudharmony_net]
+ip = "us-central1-gce.cloudharmony.net"
+description = "[US/IA] Google Cloud Platform (us-central1) - Council Bluffs, Iowa, United States [us-central1-gce.cloudharmony.net]"
+
+[hosts.18_188_0_0]
+ip = "18.188.0.0"
+description = "[US/OH] Amazon Web Services (us-east-2) - Ohio, United States [18.188.0.0]"
+
+[hosts.cle_speedtest_sbcglobal_net]
+ip = "cle.speedtest.sbcglobal.net"
+description = "[US/OH] AT&T - Cleveland, OH, US [cle.speedtest.sbcglobal.net]"
+
+[hosts.4_69_210_125]
+ip = "4.69.210.125"
+description = "[US/OH] Level 3 - Cleveland, Ohio [4.69.210.125]"
+
+[hosts.lg_freerangecloud_com]
+ip = "lg.freerangecloud.com"
+description = "[CA/MB] Free Range Cloud - Winnipeg, Manitoba, Canada [lg.freerangecloud.com]"
+
+[hosts.core1_ywg1_he_net]
+ip = "core1.ywg1.he.net"
+description = "[CA/MB] Hurricane Electric - Global Server Center, Winnipeg Winnipeg, MB, CA [core1.ywg1.he.net]"
+
+[hosts.speedtestwinnipeg_rogers_com]
+ip = "speedtestwinnipeg.rogers.com"
+description = "[CA/MB] Rogers - Winnipeg, Canada [speedtestwinnipeg.rogers.com]"
+
+[hosts.speedtest_wp_shawcable_net]
+ip = "speedtest.wp.shawcable.net"
+description = "[CA/MB] Shaw - Winnipeg, Canada [speedtest.wp.shawcable.net]"
+
+[hosts.winnipeg_speedtest_telus_com]
+ip = "winnipeg.speedtest.telus.com"
+description = "[CA/MB] TELUS - Winnipeg, Canada [winnipeg.speedtest.telus.com]"
+
+[hosts.core1_yxe1_he_net]
+ip = "core1.yxe1.he.net"
+description = "[CA/SK] Hurricane Electric - Saskatoon, Saskatchewan [core1.yxe1.he.net]"
+
+[hosts.spt01blngmt_blng_mt_charter_com]
+ip = "spt01blngmt.blng.mt.charter.com"
+description = "[US/MT] Charter - Billings, MT, US [spt01blngmt.blng.mt.charter.com]"
+
+[hosts.speedtest_rd_om_cox_net]
+ip = "speedtest.rd.om.cox.net"
+description = "[US/NE] Cox Communications - Omaha, NE, US [speedtest.rd.om.cox.net]"
+
+[hosts.ind_speedtest_sbcglobal_net]
+ip = "ind.speedtest.sbcglobal.net"
+description = "[US/IN] AT&T - Indianapolis, IN, US [ind.speedtest.sbcglobal.net]"
+
+[hosts.spt01aldlmi_aldl_mi_charter_com]
+ip = "spt01aldlmi.aldl.mi.charter.com"
+description = "[US/MI] Charter - Allendale, MI, US [spt01aldlmi.aldl.mi.charter.com]"
+
+[hosts.stosat-taylr-01_sys_comcast_net]
+ip = "stosat-taylr-01.sys.comcast.net"
+description = "[US/MI] Comcast - Detroit, MI, US [stosat-taylr-01.sys.comcast.net]"
+
+[hosts.bismarck_speedtest_centurylink_net]
+ip = "bismarck.speedtest.centurylink.net"
+description = "[US/ND] CenturyLink - Bismarck, ND, US [bismarck.speedtest.centurylink.net]"
+
+[hosts.yk-netspeed_nwtel_ca]
+ip = "yk-netspeed.nwtel.ca"
+description = "[CA/NT] Northwestel - Yellowknife, Northwest Territories, Canada [yk-netspeed.nwtel.ca]"
+
+[hosts.lg_dal_colocrossing_com]
+ip = "lg.dal.colocrossing.com"
+description = "[US/TX] ColoCrossing - Dallas, Texas [lg.dal.colocrossing.com]"
+
+[hosts.speedtest_c1_dal1_dediserve_com]
+ip = "speedtest.c1.dal1.dediserve.com"
+description = "[US/TX] Dediserve - Dallas, Texas, USA [speedtest.c1.dal1.dediserve.com]"
+
+[hosts.38_68_134_162]
+ip = "38.68.134.162"
+description = "[US/TX] GTHost (GlobalTeleHost Corp.) - Dallas, United States [38.68.134.162]"
+
+[hosts.172_110_8_1]
+ip = "172.110.8.1"
+description = "[US/TX] ImpactVPS @ Incero - Dallas, Texas [172.110.8.1]"
+
+[hosts.speedtest_dallas_linode_com]
+ip = "speedtest.dallas.linode.com"
+description = "[US/TX] Linode - Dallas, Texas [speedtest.dallas.linode.com]"
+
+[hosts.lg_nexril_net]
+ip = "lg.nexril.net"
+description = "[US/TX] Nexril - Dallas, Texas [lg.nexril.net]"
+
+[hosts.66_150_214_8]
+ip = "66.150.214.8"
+description = "[US/TX] NFOservers - Dallas, Texas [66.150.214.8]"
+
+[hosts.lg_texas_psychz_net]
+ip = "lg.texas.psychz.net"
+description = "[US/TX] Psychz - Dallas, Texas [lg.texas.psychz.net]"
+
+[hosts.dfw_speedtest_rackspace_com]
+ip = "dfw.speedtest.rackspace.com"
+description = "[US/TX] Rackspace - Dallas, Texas [dfw.speedtest.rackspace.com]"
+
+[hosts.lg-dal_ssdblaze_com]
+ip = "lg-dal.ssdblaze.com"
+description = "[US/TX] SSDBlaze - Dallas, Texas [lg-dal.ssdblaze.com]"
+
+[hosts.speedtest_dal06_softlayer_com]
+ip = "speedtest.dal06.softlayer.com"
+description = "[US/TX] SoftLayer (dal06) - Dallas, Texas [speedtest.dal06.softlayer.com]"
+
+[hosts.96_44_142_2]
+ip = "96.44.142.2"
+description = "[US/TX] QuadraNet - Dallas, Texas [lg.dal.colocrossing.com]"
+
+[hosts.lg_dal_spartanhost_net]
+ip = "lg.dal.spartanhost.net"
+description = "[US/TX] SpartanHost - Dallas, Texas [lg.dal.spartanhost.net]"
+
+[hosts.lg_daldedicated_com]
+ip = "lg.daldedicated.com"
+description = "[US/TX] US Dedicated @ InterNap DAL006 - Dallas, Texas [lg.daldedicated.com]"
+
+[hosts.tx-us-ping_vultr_com]
+ip = "tx-us-ping.vultr.com"
+description = "[US/TX] Vultr - Dallas, Texas [tx-us-ping.vultr.com]"
+
+[hosts.spt01ftwotx_ftwo_tx_charter_com]
+ip = "spt01ftwotx.ftwo.tx.charter.com"
+description = "[US/TX] Charter - Fort Worth, TX, US [spt01ftwotx.ftwo.tx.charter.com]"
+
+[hosts.speedtest_hou02_softlayer_com]
+ip = "speedtest.hou02.softlayer.com"
+description = "[US/TX] SoftLayer (hou02) - Houston, Texas [speedtest.hou02.softlayer.com]"
+
+[hosts.sat_speedtest_sbcglobal_net]
+ip = "sat.speedtest.sbcglobal.net"
+description = "[US/TX] AT&T - San Antonio, TX, US [sat.speedtest.sbcglobal.net]"
+
+[hosts.san-b1_telia_net]
+ip = "san-b1.telia.net"
+description = "[US/TX] Telia - San Antonio, TX, US [san-b1.telia.net]"
+
+[hosts.speedtest_rd_ok_cox_net]
+ip = "speedtest.rd.ok.cox.net"
+description = "[US/OK] Cox Communications - Oklahoma City, OK, US [speedtest.rd.ok.cox.net]"
+
+[hosts.albuquerque_speedtest_centurylink_net]
+ip = "albuquerque.speedtest.centurylink.net"
+description = "[US/NM] CenturyLink - Albuquerque, NM, US [albuquerque.speedtest.centurylink.net]"
+
+[hosts.stosat-albq-01_sys_comcast_net]
+ip = "stosat-albq-01.sys.comcast.net"
+description = "[US/NM] Comcast - Albuquerque, NM, US [stosat-albq-01.sys.comcast.net]"
+
+[hosts.little-rock_speedtest_centurylink_net]
+ip = "little-rock.speedtest.centurylink.net"
+description = "[US/AR] CenturyLink - Little Rock, AR, US [little-rock.speedtest.centurylink.net]"
+
+[hosts.stosat-malt-01_sys_comcast_net]
+ip = "stosat-malt-01.sys.comcast.net"
+description = "[US/AR] Comcast - Little Rock, AR, US [stosat-malt-01.sys.comcast.net]"
+
+[hosts.msy_speedtest_sbcglobal_net]
+ip = "msy.speedtest.sbcglobal.net"
+description = "[US/LA] AT&T - New Orleans, LA, US [msy.speedtest.sbcglobal.net]"
+
+[hosts.spt01slidla_slid_la_charter_com]
+ip = "spt01slidla.slid.la.charter.com"
+description = "[US/LA] Charter - Slidell, LA, US [spt01slidla.slid.la.charter.com]"
+
+[hosts.speedtest_mex01_softlayer_com]
+ip = "speedtest.mex01.softlayer.com"
+description = "[MX] SoftLayer (mex01) - Queretaro, Mexico [speedtest.mex01.softlayer.com]"
+
+[hosts.speedmax_maxcom_net_mx]
+ip = "speedmax.maxcom.net.mx"
+description = "[MX] Maxcom - Mexico City, Mexico [speedmax.maxcom.net.mx]"
+
+[hosts.speedtest-mex-01_alestra_net_mx]
+ip = "speedtest-mex-01.alestra.net.mx"
+description = "[MX] Alestra - Mexico City, Mexico [speedtest-mex-01.alestra.net.mx]"
+
+[hosts.internet6_movistar_com_mx]
+ip = "internet6.movistar.com.mx"
+description = "[MX] Telefonica/Movistar Mexico - Guadalajara, Mexico [internet6.movistar.com.mx]"
+
+[hosts.speed1_mty_attmex_mx]
+ip = "speed1.mty.attmex.mx"
+description = "[MX] AT&T - Monterrey, Mexico [speed1.mty.attmex.mx]"
+
+[hosts.internet5_movistar_com_mx]
+ip = "internet5.movistar.com.mx"
+description = "[MX] Telefonica/Movistar Mexico - Cancun, Mexico [internet5.movistar.com.mx]"
+
+[hosts.mirror_cc_columbia_edu]
+ip = "mirror.cc.columbia.edu"
+description = "[US/NY] Columbia University - New York City, NY, US [mirror.cc.columbia.edu]"
+
+[hosts.nyc_speedtest_sbcglobal_net]
+ip = "nyc.speedtest.sbcglobal.net"
+description = "[US/NY] AT&T - New York City, NY, US [nyc.speedtest.sbcglobal.net]"
+
+[hosts.speedtest_ny_buyvm_net]
+ip = "speedtest.ny.buyvm.net"
+description = "[US/NY] BuyVM - New York, USA [speedtest.ny.buyvm.net]"
+
+[hosts.lg_nyc_colocrossing_com]
+ip = "lg.nyc.colocrossing.com"
+description = "[US/NY] ColoCrossing - New York City, NY, US [lg.nyc.colocrossing.com]"
+
+[hosts.speedtest-nyc3_digitalocean_com]
+ip = "speedtest-nyc3.digitalocean.com"
+description = "[US/NY] DigitalOcean (NYC3) - New York City, NY, US [speedtest-nyc3.digitalocean.com]"
+
+[hosts.newyork_lg_ftpit_com]
+ip = "newyork.lg.ftpit.com"
+description = "[US/NY] FTPit (Komputer King LLC) - New York City, New York [newyork.lg.ftpit.com]"
+
+[hosts.38_99_247_162]
+ip = "38.99.247.162"
+description = "[US/NY] GTHost (GlobalTeleHost Corp.) - New York, United States [38.99.247.162]"
+
+[hosts.lg_ny_hosthatch_com]
+ip = "lg.ny.hosthatch.com"
+description = "[US/NY] HostHatch - New York City [lg.ny.hosthatch.com]"
+
+[hosts.172_110_20_1]
+ip = "172.110.20.1"
+description = "[US/NY] ImpactVPS @ Incero - New York City, NY, US [172.110.20.1]"
+
+[hosts.63_251_20_100]
+ip = "63.251.20.100"
+description = "[US/NY] NFOservers @ InterNAP - New York, US [63.251.20.100]"
+
+[hosts.lg_nyc_ramnode_com]
+ip = "lg.nyc.ramnode.com"
+description = "[US/NY] Ramnode - New York City, NY, US [lg.nyc.ramnode.com]"
+
+[hosts.nycmetro-speedtest_reliablesite_net]
+ip = "nycmetro-speedtest.reliablesite.net"
+description = "[US/NY] ReliableSite - New York City, NY, US [nycmetro-speedtest.reliablesite.net]"
+
+[hosts.lg_nycdedicated_com]
+ip = "lg.nycdedicated.com"
+description = "[US/NY] US Dedicated @ CoreSite NY2 - New York City, New York [lg.nycdedicated.com]"
+
+[hosts.192_3_180_103]
+ip = "192.3.180.103"
+description = "[US/NY] ColoCrossing - Buffalo, New York [192.3.180.103]"
+
+[hosts.speedtest_c1_nyc1_dediserve_com]
+ip = "speedtest.c1.nyc1.dediserve.com"
+description = "[US/NY] Dediserve - Buffalo, New York, USA [speedtest.c1.nyc1.dediserve.com]"
+
+[hosts.rochester_speedtest_centurylink_net]
+ip = "rochester.speedtest.centurylink.net"
+description = "[US/NY] CenturyLink - Rochester, NY, US [rochester.speedtest.centurylink.net]"
+
+[hosts.speedtest_newark_linode_com]
+ip = "speedtest.newark.linode.com"
+description = "[US/NJ] Linode - Newark, New Jersey [speedtest.newark.linode.com]"
+
+[hosts.66_11_120_2]
+ip = "66.11.120.2"
+description = "[US/NJ] SmartHost - Piscataway, New Jersey [66.11.120.2]"
+
+[hosts.lookingglass_edi_steadfast_net]
+ip = "lookingglass.edi.steadfast.net"
+description = "[US/NJ] Steadfast - Edison, New Jersey [lookingglass.edi.steadfast.net]"
+
+[hosts.nj-us-ping_vultr_com]
+ip = "nj-us-ping.vultr.com"
+description = "[US/NJ] Vultr (New Jersey) [nj-us-ping.vultr.com]"
+
+[hosts.107_174_64_68]
+ip = "107.174.64.68"
+description = "[US/NJ] Virmach @ ColoCrossing - Piscataway, New Jersey [107.174.64.68]"
+
+[hosts.162_253_176_4]
+ip = "162.253.176.4"
+description = "[US/NJ] SecureDragon @ DuPont Fabros - Piscataway, NJ, United States [162.253.176.4]"
+
+[hosts.35_182_0_251]
+ip = "35.182.0.251"
+description = "[CA/QC] Amazon Web Services (ca-central-1) - Central Canada [35.182.0.251]"
+
+[hosts.northamerica-northeast1-gce_cloudharmony_net]
+ip = "northamerica-northeast1-gce.cloudharmony.net"
+description = "[CA/QC] Google Cloud Platform (northamerica-northeast1) - Montreal, Canada [northamerica-northeast1-gce.cloudharmony.net]"
+
+[hosts.ymq1-bhs_smokeping_ovh_net]
+ip = "ymq1-bhs.smokeping.ovh.net"
+description = "[CA/QC] OVH - Beauharnois, Quebec, Canada [ymq1-bhs.smokeping.ovh.net]"
+
+[hosts.162_250_190_17]
+ip = "162.250.190.17"
+description = "[CA/QC] ServaRICA - Montreal, Canada [162.250.190.17]"
+
+[hosts.speedtest_mon01_softlayer_com]
+ip = "speedtest.mon01.softlayer.com"
+description = "[CA/QC] SoftLayer (mon01) - Montreal, Canada [speedtest.mon01.softlayer.com]"
+
+[hosts.motl-b1_telia_net]
+ip = "motl-b1.telia.net"
+description = "[CA/QC] Telia - Montreal, Canada [motl-b1.telia.net]"
+
+[hosts.montreal_speedtest_telus_com]
+ip = "montreal.speedtest.telus.com"
+description = "[CA/QC] TELUS - Montreal, Canada [montreal.speedtest.telus.com]"
+
+[hosts.mcgill_ca]
+ip = "mcgill.ca"
+description = "[CA/QC] McGill University [mcgill.ca]"
+
+[hosts.www_quonix_net]
+ip = "www.quonix.net"
+description = "[US/PA] Quonix - Philadelphia, Pennsylvania [www.quonix.net]"
+
+[hosts.stosat-crls-01_sys_comcast_net]
+ip = "stosat-crls-01.sys.comcast.net"
+description = "[US/PA] Comcast - Pittsburgh, Pennsylvania [stosat-crls-01.sys.comcast.net]"
+
+[hosts.pitt-b2_telia_net]
+ip = "pitt-b2.telia.net"
+description = "[US/PA] Telia - Pittsburgh, PA, US [pitt-b2.telia.net]"
+
+[hosts.stosat-ndhm-01_sys_comcast_net]
+ip = "stosat-ndhm-01.sys.comcast.net"
+description = "[US/MA] Comcast - Boston, Massachusetts [stosat-ndhm-01.sys.comcast.net]"
+
+[hosts.csail_mit_edu]
+ip = "csail.mit.edu"
+description = "[US/MA] Massachusetts Institute of Technology - Cambridge, Massachusetts, US [csail.mit.edu]"
+
+[hosts.38_242_7_129]
+ip = "38.242.7.129"
+description = "[US/MA] SmartHost - Somerville, Massachusetts [38.242.7.129]"
+
+[hosts.spt01oxfrma_oxfr_ma_charter_com]
+ip = "spt01oxfrma.oxfr.ma.charter.com"
+description = "[US/MA] Charter - Oxford, Massachusetts [spt01oxfrma.oxfr.ma.charter.com]"
+
+[hosts.speedtest_rd_ri_cox_net]
+ip = "speedtest.rd.ri.cox.net"
+description = "[US/RI] Cox Communications - Providence, Rhode Island [speedtest.rd.ri.cox.net]"
+
+[hosts.stosat-balt-01_sys_comcast_net]
+ip = "stosat-balt-01.sys.comcast.net"
+description = "[US/MD] Comcast - Baltimore, Maryland, US [stosat-balt-01.sys.comcast.net]"
+
+[hosts.speedtest-ns_bellaliant_net]
+ip = "speedtest-ns.bellaliant.net"
+description = "[CA/NS] Bell Aliant - Halifax, Canada [speedtest-ns.bellaliant.net]"
+
+[hosts.halifax_speedtest_telus_com]
+ip = "halifax.speedtest.telus.com"
+description = "[CA/NS] TELUS - Halifax, Canada [halifax.speedtest.telus.com]"
+
+[hosts.oss-us-east-1_aliyuncs_com]
+ip = "oss-us-east-1.aliyuncs.com"
+description = "[US/VA] Aliyun / Alibaba Cloud - Virginia (us-east-1) [oss-us-east-1.aliyuncs.com]"
+
+[hosts.52_1_255_254]
+ip = "52.1.255.254"
+description = "[US/VA] Amazon Web Services (us-east-1) - North Virginia [52.1.255.254]"
+
+[hosts.172_106_200_10]
+ip = "172.106.200.10"
+description = "[US/VA] BudgetNode @ Psychz - Ashburn, Virginia [172.106.200.10]"
+
+[hosts.ash_lg_freerangecloud_com]
+ip = "ash.lg.freerangecloud.com"
+description = "[US/VA] Free Range Cloud - Ashburn, Virginia [ash.lg.freerangecloud.com]"
+
+[hosts.was1-vin_smokeping_ovh_net]
+ip = "was1-vin.smokeping.ovh.net"
+description = "[US/VA] OVH - Vint Hill, Virginia, US [was1-vin.smokeping.ovh.net]"
+
+[hosts.lg_va_psychz_net]
+ip = "lg.va.psychz.net"
+description = "[US/VA] Psychz - Ashburn, Virginia [lg.va.psychz.net]"
+
+[hosts.iad_speedtest_rackspace_com]
+ip = "iad.speedtest.rackspace.com"
+description = "[US/VA] Rackspace - Reston, Virginia [iad.speedtest.rackspace.com]"
+
+[hosts.cos_na-ashburn_myqcloud_com]
+ip = "cos.na-ashburn.myqcloud.com"
+description = "[US/VA] Tencent Cloud - Virginia, United States [cos.na-ashburn.myqcloud.com]"
+
+[hosts.us-iad01_lg_misaka_one]
+ip = "us-iad01.lg.misaka.one"
+description = "[US/VA] ZeptoVM / Misaka Networks @ Voxility - Ashburn, Virginia [us-iad01.lg.misaka.one]"
+
+[hosts.stosat-smil-01_sys_comcast_net]
+ip = "stosat-smil-01.sys.comcast.net"
+description = "[US/VA] Comcast - Richmond, VA, US [stosat-smil-01.sys.comcast.net]"
+
+[hosts.speedtest_rd_dc_cox_net]
+ip = "speedtest.rd.dc.cox.net"
+description = "[US/VA] Cox Communications - Arlington, VA, US [speedtest.rd.dc.cox.net]"
+
+[hosts.mirror_wdc1_us_leaseweb_net]
+ip = "mirror.wdc1.us.leaseweb.net"
+description = "[US/DC] LeaseWeb - Washington D.C. [mirror.wdc1.us.leaseweb.net]"
+
+[hosts.atl_speedtest_sbcglobal_net]
+ip = "atl.speedtest.sbcglobal.net"
+description = "[US/GA] AT&T - Tucker, GA, US [atl.speedtest.sbcglobal.net]"
+
+[hosts.104_129_25_90]
+ip = "104.129.25.90"
+description = "[US/GA] BudgetNode - Atlanta, Georgia [104.129.25.90]"
+
+[hosts.lg_atl_colocrossing_com]
+ip = "lg.atl.colocrossing.com"
+description = "[US/GA] ColoCrossing - Atlanta, Georgia [lg.atl.colocrossing.com]"
+
+[hosts.stosat-smtn-01_sys_comcast_net]
+ip = "stosat-smtn-01.sys.comcast.net"
+description = "[US/GA] Comcast - Atlanta, GA, US [stosat-smtn-01.sys.comcast.net]"
+
+[hosts.speedtest_rd_at_cox_net]
+ip = "speedtest.rd.at.cox.net"
+description = "[US/GA] Cox Communications - Alpharetta, GA, US [speedtest.rd.at.cox.net]"
+
+[hosts.atlanta_lg_ftpit_com]
+ip = "atlanta.lg.ftpit.com"
+description = "[US/GA] FTPit (Komputer King LLC) - Atlanta, Georgia [atlanta.lg.ftpit.com]"
+
+[hosts.atl-lg_hostus_us]
+ip = "atl-lg.hostus.us"
+description = "[US/GA] HostUS - Atlanta, Georgia [atl-lg.hostus.us]"
+
+[hosts.speedtest_atlanta_linode_com]
+ip = "speedtest.atlanta.linode.com"
+description = "[US/GA] Linode - Atlanta, Georgia [speedtest.atlanta.linode.com]"
+
+[hosts.lg_atl_ramnode_com]
+ip = "lg.atl.ramnode.com"
+description = "[US/GA] Ramnode - Atlanta, Georgia [lg.atl.ramnode.com]"
+
+[hosts.162_211_67_4]
+ip = "162.211.67.4"
+description = "[US/GA] SecureDragon @ QuadraNet - Atlanta, GA, United States [162.211.67.4]"
+
+[hosts.lg_atldedicated_net]
+ip = "lg.atldedicated.net"
+description = "[US/GA] US Dedicated @ InterNAP ACS - Atlanta, Georgia [lg.atldedicated.net]"
+
+[hosts.ga-us-ping_vultr_com]
+ip = "ga-us-ping.vultr.com"
+description = "[US/GA] Vultr - Atlanta, Georgia [ga-us-ping.vultr.com]"
+
+[hosts.199_102_65_118]
+ip = "199.102.65.118"
+description = "[US/FL] SmartHost @ GoRack - Jacksonville, Florida [199.102.65.118]"
+
+[hosts.199_167_30_105]
+ip = "199.167.30.105"
+description = "[US/FL] SecureDragon @ Hivelocity - Tampa, FL, United States [199.167.30.105]"
+
+[hosts.162_251_62_162]
+ip = "162.251.62.162"
+description = "[US/FL] GTHost (GlobalTeleHost Corp.) - Miami, United States [162.251.62.162]"
+
+[hosts.173_44_32_10]
+ip = "173.44.32.10"
+description = "[US/FL] QuadraNet - Miami, Florida [173.44.32.10]"
+
+[hosts.miami-speedtest_reliablesite_net]
+ip = "miami-speedtest.reliablesite.net"
+description = "[US/FL] ReliableSite - Miami, FL, US [miami-speedtest.reliablesite.net]"
+
+[hosts.fl-us-ping_vultr_com]
+ip = "fl-us-ping.vultr.com"
+description = "[US/FL] Vultr - Miami, Florida [fl-us-ping.vultr.com]"
+
+[hosts.mco_speedtest_sbcglobal_net]
+ip = "mco.speedtest.sbcglobal.net"
+description = "[US/FL] AT&T - Orlando, FL, US [mco.speedtest.sbcglobal.net]"
+
+[hosts.fort-myers_speedtest_centurylink_net]
+ip = "fort-myers.speedtest.centurylink.net"
+description = "[US/FL] CenturyLink - Fort Myers, FL, US [fort-myers.speedtest.centurylink.net]"
+
+[hosts.stosat-tall-01_sys_comcast_net]
+ip = "stosat-tall-01.sys.comcast.net"
+description = "[US/FL] Comcast - Tallahassee, FL, US [stosat-tall-01.sys.comcast.net]"
+
+[hosts.208_73_23_243]
+ip = "208.73.23.243"
+description = "[US/WV] Dedispec - Berkeley Springs, West Virginia [208.73.23.243]"
+
+[hosts.lg-us-ler_mrvm_net]
+ip = "lg-us-ler.mrvm.net"
+description = "[US/NC] mrvm.net @ Dacentec - Lenoir, North Carolina [lg-us-ler.mrvm.net]"
+
+[hosts.clt-lg_hostus_us]
+ip = "clt-lg.hostus.us"
+description = "[US/NC] HostUS - Charlotte, North Carolina [clt-lg.hostus.us]"
+
+[hosts.clt_speedtest_sbcglobal_net]
+ip = "clt.speedtest.sbcglobal.net"
+description = "[US/NC] AT&T - Charlotte, NC, US [clt.speedtest.sbcglobal.net]"
+
+[hosts.columbia_speedtest_centurylink_net]
+ip = "columbia.speedtest.centurylink.net"
+description = "[US/SC] CenturyLink - Columbia, SC, US [columbia.speedtest.centurylink.net]"
+
+[hosts.us-east1-gce_cloudharmony_net]
+ip = "us-east1-gce.cloudharmony.net"
+description = "[US/SC] Google Cloud Platform (us-east1) - South Carolina [us-east1-gce.cloudharmony.net]"
+
+[hosts.bna_speedtest_sbcglobal_net]
+ip = "bna.speedtest.sbcglobal.net"
+description = "[US/TN] AT&T - Nashville, TN, US [bna.speedtest.sbcglobal.net]"
+
+[hosts.spt01kgpttn_kgpt_tn_charter_com]
+ip = "spt01kgpttn.kgpt.tn.charter.com"
+description = "[US/TN] Charter - Kingsport, TN, US [spt01kgpttn.kgpt.tn.charter.com]"
+
+[hosts.launchpad_net]
+ip = "launchpad.net"
+description = "[UK] Launchpad / Canonical Ltd. [launchpad.net]"
+
+[hosts.cam_ac_uk]
+ip = "cam.ac.uk"
+description = "[UK] University of Cambridge - Cambridge, England, UK [cam.ac.uk]"
+
+[hosts.mirror_ox_ac_uk]
+ip = "mirror.ox.ac.uk"
+description = "[UK] University of Oxford - Oxford, England, UK [mirror.ox.ac.uk]"
+
+[hosts.oss-eu-west-1_aliyuncs_com]
+ip = "oss-eu-west-1.aliyuncs.com"
+description = "[UK] Aliyun - London, United Kingdom [oss-eu-west-1.aliyuncs.com]"
+
+[hosts.3_8_0_0]
+ip = "3.8.0.0"
+description = "[UK] Amazon Web Services - London, United Kingdom [3.8.0.0]"
+
+[hosts.89_36_222_238]
+ip = "89.36.222.238"
+description = "[UK] ArubaCloud - London, United Kingdom [89.36.222.238]"
+
+[hosts.185_187_242_2]
+ip = "185.187.242.2"
+description = "[UK] BudgetNode - London, United Kingdom [185.187.242.2]"
+
+[hosts.lg_clouvider_net]
+ip = "lg.clouvider.net"
+description = "[UK] Clouvider - London, United Kingdom [lg.clouvider.net]"
+
+[hosts.speedtest_c1_lon2_dediserve_com]
+ip = "speedtest.c1.lon2.dediserve.com"
+description = "[UK] Dediserve - London, United Kingdom [speedtest.c1.lon2.dediserve.com]"
+
+[hosts.speedtest-lon1_digitalocean_com]
+ip = "speedtest-lon1.digitalocean.com"
+description = "[UK] DigitalOcean (LON1) - London, United Kingdom [speedtest-lon1.digitalocean.com]"
+
+[hosts.uk_edis_at]
+ip = "uk.edis.at"
+description = "[UK] EDIS - London, United Kingdom [uk.edis.at]"
+
+[hosts.europe-west2-gce_cloudharmony_net]
+ip = "europe-west2-gce.cloudharmony.net"
+description = "[UK] Google Cloud Platform (europe-west2) - London, United Kingdom [europe-west2-gce.cloudharmony.net]"
+
+[hosts.speedtest_london_linode_com]
+ip = "speedtest.london.linode.com"
+description = "[UK] Linode - London, United Kingdom [speedtest.london.linode.com]"
+
+[hosts.lon1-eri_smokeping_ovh_net]
+ip = "lon1-eri.smokeping.ovh.net"
+description = "[UK] OVH - Erith, London, United Kingdom [lon1-eri.smokeping.ovh.net]"
+
+[hosts.lg_lon_psychz_net]
+ip = "lg.lon.psychz.net"
+description = "[UK] Psychz - London, United Kingdom [lg.lon.psychz.net]"
+
+[hosts.lon_speedtest_rackspace_com]
+ip = "lon.speedtest.rackspace.com"
+description = "[UK] Rackspace - London, United Kingdom [lon.speedtest.rackspace.com]"
+
+[hosts.speedtest-ld1_sa_net]
+ip = "speedtest-ld1.sa.net"
+description = "[UK] Riven Cloud @ xTom - London, United Kingdom [speedtest-ld1.sa.net]"
+
+[hosts.195_2_27_162]
+ip = "195.2.27.162"
+description = "[UK] Vodafone - London, United Kingdom [195.2.27.162]"
+
+[hosts.lg_thn2_vmhaus_com]
+ip = "lg.thn2.vmhaus.com"
+description = "[UK] VMHaus - London, United Kingdom [lg.thn2.vmhaus.com]"
+
+[hosts.lon-gb-ping_vultr_com]
+ip = "lon-gb-ping.vultr.com"
+description = "[UK] Vultr - London, United Kingdom [lon-gb-ping.vultr.com]"
+
+[hosts.lg_loveservers_com]
+ip = "lg.loveservers.com"
+description = "[UK] LoveServers @ iomart - Manchester, United Kingdom [lg.loveservers.com]"
+
+[hosts.www_m247_com]
+ip = "www.m247.com"
+description = "[UK] M247 (DDoS Protected) - Manchester, United Kingdom [www.m247.com]"
+
+[hosts.77_81_107_11]
+ip = "77.81.107.11"
+description = "[UK] Virtono @ M247 - Manchester, United Kingdom [77.81.107.11]"
+
+[hosts.54_216_0_1]
+ip = "54.216.0.1"
+description = "[IE] Amazon Web Services (eu-west-1) - Ireland [54.216.0.1]"
+
+[hosts.speedtest_c1_dub2_dediserve_com]
+ip = "speedtest.c1.dub2.dediserve.com"
+description = "[IE] Dediserve - Dublin, Ireland [speedtest.c1.dub2.dediserve.com]"
+
+[hosts.im_edis_at]
+ip = "im.edis.at"
+description = "[IM] EDIS - Douglas, Isle of Man [im.edis.at]"
+
+[hosts.proxad_net]
+ip = "proxad.net"
+description = "[FR] Proxad [proxad.net]"
+
+[hosts.1fichier_com]
+ip = "1fichier.com"
+description = "[FR] 1fichier.com (DStorage SASU) [1fichier.com]"
+
+[hosts.52_47_32_127]
+ip = "52.47.32.127"
+description = "[FR] Amazon Web Services - Paris, France [52.47.32.127]"
+
+[hosts.fr_edis_at]
+ip = "fr.edis.at"
+description = "[FR] EDIS - Paris, France [fr.edis.at]"
+
+[hosts.core1_par2_he_net]
+ip = "core1.par2.he.net"
+description = "[FR] Hurricane Electric - Telehouse Paris Voltaire Paris, FR [core1.par2.he.net]"
+
+[hosts.ping_online_net]
+ip = "ping.online.net"
+description = "[FR] Online.net - Paris, France [ping.online.net]"
+
+[hosts.www_renater_fr]
+ip = "www.renater.fr"
+description = "[FR] RENATER - Paris, France [www.renater.fr]"
+
+[hosts.speedtest_par01_softlayer_com]
+ip = "speedtest.par01.softlayer.com"
+description = "[FR] SoftLayer (par01) - Paris, France [speedtest.par01.softlayer.com]"
+
+[hosts.par-fr-ping_vultr_com]
+ip = "par-fr-ping.vultr.com"
+description = "[FR] Vultr - Paris, France [par-fr-ping.vultr.com]"
+
+[hosts.lil2-gra_smokeping_ovh_net]
+ip = "lil2-gra.smokeping.ovh.net"
+description = "[FR] OVH - Gravelines, France [lil2-gra.smokeping.ovh.net]"
+
+[hosts.lil1-rbx_smokeping_ovh_net]
+ip = "lil1-rbx.smokeping.ovh.net"
+description = "[FR] OVH - Roubaix, France [lil1-rbx.smokeping.ovh.net]"
+
+[hosts.sbg_smokeping_ovh_net]
+ip = "sbg.smokeping.ovh.net"
+description = "[FR] OVH - Strasbourg, France [sbg.smokeping.ovh.net]"
+
+[hosts.lg_ikoula_com]
+ip = "lg.ikoula.com"
+description = "[FR] Ikoula @ Ikoula - Reims, France [lg.ikoula.com]"
+
+[hosts.core1_mrs1_he_net]
+ip = "core1.mrs1.he.net"
+description = "[FR] Hurricane Electric - Interxion Marseille Marseille, FR [core1.mrs1.he.net]"
+
+[hosts.45_62_120_202]
+ip = "45.62.120.202"
+description = "[NL] BandwagonHost (IT7 Networks) - The Netherlands [45.62.120.202]"
+
+[hosts.nl_lg_budgetnode_net]
+ip = "nl.lg.budgetnode.net"
+description = "[NL] BudgetNode - Lelystad, Flevoland, Netherlands [nl.lg.budgetnode.net]"
+
+[hosts.185_243_112_1]
+ip = "185.243.112.1"
+description = "[NL] CrownCloud @ Switch Datacenter - Amsterdam, Netherlands [185.243.112.1]"
+
+[hosts.speedtest_c1_ams1_dediserve_com]
+ip = "speedtest.c1.ams1.dediserve.com"
+description = "[NL] Dediserve - Amsterdam, Netherlands [speedtest.c1.ams1.dediserve.com]"
+
+[hosts.speedtest-ams2_digitalocean_com]
+ip = "speedtest-ams2.digitalocean.com"
+description = "[NL] DigitalOcean (AMS2) - Amsterdam, Netherlands [speedtest-ams2.digitalocean.com]"
+
+[hosts.nl_edis_at]
+ip = "nl.edis.at"
+description = "[NL] EDIS - Schiphol Rijk, Amsterdam, Netherlands [nl.edis.at]"
+
+[hosts.lg_ams_hosthatch_com]
+ip = "lg.ams.hosthatch.com"
+description = "[NL] HostHatch @ NFOrce - Amsterdam, Netherlands [lg.ams.hosthatch.com]"
+
+[hosts.mirror_nl_leaseweb_net]
+ip = "mirror.nl.leaseweb.net"
+description = "[NL] LeaseWeb - The Netherlands [mirror.nl.leaseweb.net]"
+
+[hosts.4_69_203_101]
+ip = "4.69.203.101"
+description = "[NL] Level 3 - Amsterdam, Netherlands [4.69.203.101]"
+
+[hosts.lg-dro_liteserver_nl]
+ip = "lg-dro.liteserver.nl"
+description = "[NL] LiteServer - Dronten, Netherlands [lg-dro.liteserver.nl]"
+
+[hosts.lg_nl_lunarvps_com]
+ip = "lg.nl.lunarvps.com"
+description = "[NL] LunarVPS - The Netherlands [lg.nl.lunarvps.com]"
+
+[hosts.ping-ams1_online_net]
+ip = "ping-ams1.online.net"
+description = "[NL] Online.net - Amsterdam, Netherlands [ping-ams1.online.net]"
+
+[hosts.lg_nl_ramnode_com]
+ip = "lg.nl.ramnode.com"
+description = "[NL] Ramnode - Alblasserdam, Netherlands [lg.nl.ramnode.com]"
+
+[hosts.ams-nl-ping_vultr_com]
+ip = "ams-nl-ping.vultr.com"
+description = "[NL] Vultr - Amsterdam, Netherlands [ams-nl-ping.vultr.com]"
+
+[hosts.lg_ams_nl_ultravps_eu]
+ip = "lg.ams.nl.ultravps.eu"
+description = "[NL] UltraVPS - Amsterdam, Netherlands [lg.ams.nl.ultravps.eu]"
+
+[hosts.europe-west4-gce_cloudharmony_net]
+ip = "europe-west4-gce.cloudharmony.net"
+description = "[NL] Google Cloud Platform (europe-west4) - Eemshaven, Netherlands [europe-west4-gce.cloudharmony.net]"
+
+[hosts.be_edis_at]
+ip = "be.edis.at"
+description = "[BE] EDIS - Oostkamp, Belgium [be.edis.at]"
+
+[hosts.europe-west1-gce_cloudharmony_net]
+ip = "europe-west1-gce.cloudharmony.net"
+description = "[BE] Google Cloud Platform (europe-west1) - St. Ghislain, Belgium [europe-west1-gce.cloudharmony.net]"
+
+[hosts.core1_bru1_he_net]
+ip = "core1.bru1.he.net"
+description = "[BE] Hurricane Electric - Interxion Brussels Zaventem, BE [core1.bru1.he.net]"
+
+[hosts.brx-b2_telia_net]
+ip = "brx-b2.telia.net"
+description = "[BE] Telia - Brussels, Belgium [brx-b2.telia.net]"
+
+[hosts.speedtest_lu_buyvm_net]
+ip = "speedtest.lu.buyvm.net"
+description = "[LU] BuyVM - Roost, Luxembourg [speedtest.lu.buyvm.net]"
+
+[hosts.lg_first-root_com]
+ip = "lg.first-root.com"
+description = "[DE] First Root - Dusseldorf, Germany [lg.first-root.com]"
+
+[hosts.lg_dus_de_ultravps_eu]
+ip = "lg.dus.de.ultravps.eu"
+description = "[DE] UltraVPS - Dusseldorf, Germany [lg.dus.de.ultravps.eu]"
+
+[hosts.koln-b1_telia_net]
+ip = "koln-b1.telia.net"
+description = "[DE] Telia - Cologne, Germany [koln-b1.telia.net]"
+
+[hosts.lg_ip-projects_de]
+ip = "lg.ip-projects.de"
+description = "[DE] AcceleratedIT - Frankfurt, Germany [lg.ip-projects.de]"
+
+[hosts.oss-eu-central-1_aliyuncs_com]
+ip = "oss-eu-central-1.aliyuncs.com"
+description = "[DE] Aliyun - Frankfurt, Germany [oss-eu-central-1.aliyuncs.com]"
+
+[hosts.18_196_0_253]
+ip = "18.196.0.253"
+description = "[DE] Amazon Web Services - Frankfurt, Germany [18.196.0.253]"
+
+[hosts.lg_combahton_net]
+ip = "lg.combahton.net"
+description = "[DE] combahton IT Services (FFM2) - Frankfurt, Germany [lg.combahton.net]"
+
+[hosts.5_154_145_1]
+ip = "5.154.145.1"
+description = "[DE] China Telecom Global (Germany) [5.154.145.1]"
+
+[hosts.speedtest_c1_fra1_dediserve_com]
+ip = "speedtest.c1.fra1.dediserve.com"
+description = "[DE] Dediserve - Frankfurt, Germany [speedtest.c1.fra1.dediserve.com]"
+
+[hosts.f-lga1_f_de_net_dtag_de]
+ip = "f-lga1.f.de.net.dtag.de"
+description = "[DE] Deutsche Telekom - Frankfurt, Germany [f-lga1.f.de.net.dtag.de]"
+
+[hosts.speedtest-fra1_digitalocean_com]
+ip = "speedtest-fra1.digitalocean.com"
+description = "[DE] DigitalOcean (FRA1) - Frankfurt, Germany [speedtest-fra1.digitalocean.com]"
+
+[hosts.de_edis_at]
+ip = "de.edis.at"
+description = "[DE] EDIS - Frankfurt, Germany [de.edis.at]"
+
+[hosts.europe-west3-gce_cloudharmony_net]
+ip = "europe-west3-gce.cloudharmony.net"
+description = "[DE] Google Cloud Platform (europe-west3) - Frankfurt, Germany [europe-west3-gce.cloudharmony.net]"
+
+[hosts.193_108_116_162]
+ip = "193.108.116.162"
+description = "[DE] GTHost (GlobalTeleHost Corp.) - Frankfurt, Germany [193.108.116.162]"
+
+[hosts.mirror_de_leaseweb_net]
+ip = "mirror.de.leaseweb.net"
+description = "[DE] LeaseWeb - Germany [mirror.de.leaseweb.net]"
+
+[hosts.speedtest_frankfurt_linode_com]
+ip = "speedtest.frankfurt.linode.com"
+description = "[DE] Linode - Frankfurt, Germany [speedtest.frankfurt.linode.com]"
+
+[hosts.fra1-lim_smokeping_ovh_net]
+ip = "fra1-lim.smokeping.ovh.net"
+description = "[DE] OVH - Frankfurt, Germany [fra1-lim.smokeping.ovh.net]"
+
+[hosts.cos_eu-frankfurt_myqcloud_com]
+ip = "cos.eu-frankfurt.myqcloud.com"
+description = "[DE] Tencent Cloud - Frankfurt, Germany [cos.eu-frankfurt.myqcloud.com]"
+
+[hosts.ffm_lg_virmach_com]
+ip = "ffm.lg.virmach.com"
+description = "[DE] Virmach @ ServerHub - Frankfurt, Germany [ffm.lg.virmach.com]"
+
+[hosts.fra-de-ping_vultr_com]
+ip = "fra-de-ping.vultr.com"
+description = "[DE] Vultr - Frankfurt, Germany [fra-de-ping.vultr.com]"
+
+[hosts.core1_ham1_he_net]
+ip = "core1.ham1.he.net"
+description = "[DE] Hurricane Electric - GlobalConnect, Hamburg Hamburg, DE [core1.ham1.he.net]"
+
+[hosts.core1_ber1_he_net]
+ip = "core1.ber1.he.net"
+description = "[DE] Hurricane Electric - IPB CarrierColo Berlin Berlin, DE [core1.ber1.he.net]"
+
+[hosts.speed_hetzner_de]
+ip = "speed.hetzner.de"
+description = "[DE] Hetzner - Falkenstein, Germany [speed.hetzner.de]"
+
+[hosts.lg_netcup_net]
+ip = "lg.netcup.net"
+description = "[DE] Netcup - Nuremberg, Germany [lg.netcup.net]"
+
+[hosts.cern_ch]
+ip = "cern.ch"
+description = "[CH] CERN - European Organization for Nuclear Research - Geneva, Switzerland [cern.ch]"
+
+[hosts.core1_gva1_he_net]
+ip = "core1.gva1.he.net"
+description = "[CH] Hurricane Electric - Equinix Geneva (GV1) Geneva, CH [core1.gva1.he.net]"
+
+[hosts.ubuntu_ethz_ch]
+ip = "ubuntu.ethz.ch"
+description = "[CH] Swiss Federal Institute of Technology in Zurich - Zurich, Switzerland [ubuntu.ethz.ch]"
+
+[hosts.ch_edis_at]
+ip = "ch.edis.at"
+description = "[CH] EDIS - Zurich, Switzerland [ch.edis.at]"
+
+[hosts.protonmail_com]
+ip = "protonmail.com"
+description = "[CH] ProtonMail [protonmail.com]"
+
+[hosts.lg_sw_lunarvps_com]
+ip = "lg.sw.lunarvps.com"
+description = "[CH] LunarVPS - Switzerland [lg.sw.lunarvps.com]"
+
+[hosts.www_privatelayer_com]
+ip = "www.privatelayer.com"
+description = "[CH] PrivateLayer - Zurich, Switzerland [www.privatelayer.com]"
+
+[hosts.speedtest_c1_pol1_dediserve_com]
+ip = "speedtest.c1.pol1.dediserve.com"
+description = "[PL] Dediserve - Warsaw, Poland [speedtest.c1.pol1.dediserve.com]"
+
+[hosts.pl_edis_at]
+ip = "pl.edis.at"
+description = "[PL] EDIS - Warsaw, Poland [pl.edis.at]"
+
+[hosts.waw1-oza_smokeping_ovh_net]
+ip = "waw1-oza.smokeping.ovh.net"
+description = "[PL] OVH - Warsaw, Poland [waw1-oza.smokeping.ovh.net]"
+
+[hosts.91_205_74_1]
+ip = "91.205.74.1"
+description = "[PL] webh @ IWACOM - Lodz, Poland [91.205.74.1]"
+
+[hosts.gda-o1_speedtest_orange_pl]
+ip = "gda-o1.speedtest.orange.pl"
+description = "[PL] Orange Polska TPSA - Gdansk, Poland [gda-o1.speedtest.orange.pl]"
+
+[hosts.speedtest_c1_vie1_dediserve_com]
+ip = "speedtest.c1.vie1.dediserve.com"
+description = "[AT] Dediserve - Vienna, Austria [speedtest.c1.vie1.dediserve.com]"
+
+[hosts.at_edis_at]
+ip = "at.edis.at"
+description = "[AT] EDIS - Vienna, Austria [at.edis.at]"
+
+[hosts.lg_vie_hosthatch_com]
+ip = "lg.vie.hosthatch.com"
+description = "[AT] HostHatch - Vienna, Austria [lg.vie.hosthatch.com]"
+
+[hosts.core1_vie1_he_net]
+ip = "core1.vie1.he.net"
+description = "[AT] Hurricane Electric - Interxion Vienna Vienna, AT [core1.vie1.he.net]"
+
+[hosts.atgrz_edis_at]
+ip = "atgrz.edis.at"
+description = "[AT] EDIS - Graz, Austria [atgrz.edis.at]"
+
+[hosts.prag-b3_telia_net]
+ip = "prag-b3.telia.net"
+description = "[CZ] Telia - Prague, Czech Republic [prag-b3.telia.net]"
+
+[hosts.speedtest3_t-mobile_cz]
+ip = "speedtest3.t-mobile.cz"
+description = "[CZ] T-Mobile - Prague, Czech Republic [speedtest3.t-mobile.cz]"
+
+[hosts.speedtest_vodafone_cz]
+ip = "speedtest.vodafone.cz"
+description = "[CZ] Vodafone - Prague, Czech Republic [speedtest.vodafone.cz]"
+
+[hosts.hu_edis_at]
+ip = "hu.edis.at"
+description = "[HU] EDIS - Budapest, Hungary [hu.edis.at]"
+
+[hosts.185_112_156_25]
+ip = "185.112.156.25"
+description = "[HU] MikroVPS - Budapest, Hungary [185.112.156.25]"
+
+[hosts.speedtest_telekom_hu]
+ip = "speedtest.telekom.hu"
+description = "[HU] Magyar Telecom - Budapest, Hungary [speedtest.telekom.hu]"
+
+[hosts.sp1_telekom_sk]
+ip = "sp1.telekom.sk"
+description = "[SK] Slovak Telekom - Bratislava, Slovakia [sp1.telekom.sk]"
+
+[hosts.it_edis_at]
+ip = "it.edis.at"
+description = "[IT] EDIS - Milan, Italy [it.edis.at]"
+
+[hosts.46_252_149_1]
+ip = "46.252.149.1"
+description = "[IT] Netsons - Milan, Italy [46.252.149.1]"
+
+[hosts.37_247_53_10]
+ip = "37.247.53.10"
+description = "[IT] Prometeus - Milan, Italy [37.247.53.10]"
+
+[hosts.speedtest_mil01_softlayer_com]
+ip = "speedtest.mil01.softlayer.com"
+description = "[IT] SoftLayer (mil01) - Milan, Italy [speedtest.mil01.softlayer.com]"
+
+[hosts.212_237_43_103]
+ip = "212.237.43.103"
+description = "[IT] ArubaCloud - Arezzo, Italy [212.237.43.103]"
+
+[hosts.core1_rom1_he_net]
+ip = "core1.rom1.he.net"
+description = "[IT] Hurricane Electric - NaMeX Roma, IT [core1.rom1.he.net]"
+
+[hosts.itpa_edis_at]
+ip = "itpa.edis.at"
+description = "[IT] EDIS - Palermo, Sicily, Italy [itpa.edis.at]"
+
+[hosts.5_134_117_74]
+ip = "5.134.117.74"
+description = "[ES] GinerNet - Madrid, Spain @ Madrid Interxion [5.134.117.74]"
+
+[hosts.www_telefonicaglobalsolutions_com]
+ip = "www.telefonicaglobalsolutions.com"
+description = "[ES] Telefonica [www.telefonicaglobalsolutions.com]"
+
+[hosts.es_edis_at]
+ip = "es.edis.at"
+description = "[ES] EDIS - Seville, Spain [es.edis.at]"
+
+[hosts.core1_lis1_he_net]
+ip = "core1.lis1.he.net"
+description = "[PT] Hurricane Electric - Equinix LS1, Lisbon Prior Velho, Lisbon, PT [core1.lis1.he.net]"
+
+[hosts.13_53_128_254]
+ip = "13.53.128.254"
+description = "[SE] Amazon Web Services (eu-north-1) - Stockholm, Sweden [13.53.128.254]"
+
+[hosts.se_edis_at]
+ip = "se.edis.at"
+description = "[SE] EDIS - Stockholm, Sweden [se.edis.at]"
+
+[hosts.lg_sto_hosthatch_com]
+ip = "lg.sto.hosthatch.com"
+description = "[SE] HostHatch @ GleSYS / Portlane - Stockholm, Sweden [lg.sto.hosthatch.com]"
+
+[hosts.kst5-speedtest-1_tele2_net]
+ip = "kst5-speedtest-1.tele2.net"
+description = "[SE] Tele2 - Kista, Stockholm, Sweden [kst5-speedtest-1.tele2.net]"
+
+[hosts.hy-peer4_se_telia_net]
+ip = "hy-peer4.se.telia.net"
+description = "[SE] Telia - Hammarby, Stockholm, Sweden [hy-peer4.se.telia.net]"
+
+[hosts.g-br-peer4_se_telia_net]
+ip = "g-br-peer4.se.telia.net"
+description = "[SE] Telia - Gothenburg, Sweden [g-br-peer4.se.telia.net]"
+
+[hosts.core1_sto1_he_net]
+ip = "core1.sto1.he.net"
+description = "[SE] Hurricane Electric - Equinix Stockholm (SK1) Stockholm, SE [core1.sto1.he.net]"
+
+[hosts.lg_osl_hosthatch_com]
+ip = "lg.osl.hosthatch.com"
+description = "[NO] HostHatch - Oslo, Norway [lg.osl.hosthatch.com]"
+
+[hosts.speedtest_osl01_softlayer_com]
+ip = "speedtest.osl01.softlayer.com"
+description = "[NO] SoftLayer (osl01) - Oslo, Norway [speedtest.osl01.softlayer.com]"
+
+[hosts.lg_terrahost_no]
+ip = "lg.terrahost.no"
+description = "[NO] Terrahost AS203629 - Sandefjord, Norway [lg.terrahost.no]"
+
+[hosts.speedtest_nextgentel_no]
+ip = "speedtest.nextgentel.no"
+description = "[NO] NextGenTel - Bergen, Norway [speedtest.nextgentel.no]"
+
+[hosts.test_telenor_net]
+ip = "test.telenor.net"
+description = "[NO] Telenor - Oslo, Norway [test.telenor.net]"
+
+[hosts.core1_cph1_he_net]
+ip = "core1.cph1.he.net"
+description = "[DK] Hurricane Electric - Interxion Copenhagen Copenhagen, DK [core1.cph1.he.net]"
+
+[hosts.linespeed_nms_tele_dk]
+ip = "linespeed.nms.tele.dk"
+description = "[DK] TDC Group - Copenhagen, Denmark [linespeed.nms.tele.dk]"
+
+[hosts.dk-ore_nordu_net]
+ip = "dk-ore.nordu.net"
+description = "[DK] NORDUnet (Nordic Gateway for Research & Education) - Copenhagen, Denmark [dk-ore.nordu.net]"
+
+[hosts.europe-north1-gce_cloudharmony_net]
+ip = "europe-north1-gce.cloudharmony.net"
+description = "[FI] Google Cloud Platform (europe-north1) - Hamina, Finland [europe-north1-gce.cloudharmony.net]"
+
+[hosts.95_216_24_40]
+ip = "95.216.24.40"
+description = "[FI] Hetzner - Helsinki, Finland [95.216.24.40]"
+
+[hosts.81_22_243_1]
+ip = "81.22.243.1"
+description = "[FI] XHostFire - Espoo, Finland @ FNE-Finland, DNA Oy [81.22.243.1]"
+
+[hosts.185_25_48_2]
+ip = "185.25.48.2"
+description = "[LT] BaCloud - Siauliai, Lithuania [185.25.48.2]"
+
+[hosts.lg_sqq_lt_ultravps_eu]
+ip = "lg.sqq.lt.ultravps.eu"
+description = "[LT] UltraVPS - Siauliai, Lithuania [lg.sqq.lt.ultravps.eu]"
+
+[hosts.91_211_244_3]
+ip = "91.211.244.3"
+description = "[LT] VPSnet - Vilnius, Lithuania [91.211.244.3]"
+
+[hosts.core1_tll1_he_net]
+ip = "core1.tll1.he.net"
+description = "[EE] Hurricane Electric - Elion Tallinn Tallinn, EE [core1.tll1.he.net]"
+
+[hosts.is_edis_at]
+ip = "is.edis.at"
+description = "[IS] EDIS - Hafnarfjordur, Iceland [is.edis.at]"
+
+[hosts.is-rey_nordu_net]
+ip = "is-rey.nordu.net"
+description = "[IS] NORDUnet (Nordic Gateway for Research & Education) - Reykjavik, Iceland [is-rey.nordu.net]"
+
+[hosts.ru_edis_at]
+ip = "ru.edis.at"
+description = "[RU] EDIS - Moscow, Russian Federation [ru.edis.at]"
+
+[hosts.lg_justhost_ru]
+ip = "lg.justhost.ru"
+description = "[RU] JustHost.ru @ DataLine - Moscow, Russia [lg.justhost.ru]"
+
+[hosts.lg-rtcom_justhost_ru]
+ip = "lg-rtcom.justhost.ru"
+description = "[RU] JustHost.ru @ RosTelecom - Moscow, Russia [lg-rtcom.justhost.ru]"
+
+[hosts.lg-prgrs_justhost_ru]
+ip = "lg-prgrs.justhost.ru"
+description = "[RU] JustHost.ru @ Fiord - Moscow, Russia [lg-prgrs.justhost.ru]"
+
+[hosts.speedtest-stf_megafon_ru]
+ip = "speedtest-stf.megafon.ru"
+description = "[RU] Megafon - Moscow, Russian Federation [speedtest-stf.megafon.ru]"
+
+[hosts.speedtest_retn_net]
+ip = "speedtest.retn.net"
+description = "[RU] ReTN - Moscow, Russian Federation [speedtest.retn.net]"
+
+[hosts.msk1_companion_tele2_ru]
+ip = "msk1.companion.tele2.ru"
+description = "[RU] Tele2 Russia - Moscow, Russian Federation [msk1.companion.tele2.ru]"
+
+[hosts.cos_eu-moscow_myqcloud_com]
+ip = "cos.eu-moscow.myqcloud.com"
+description = "[RU] Tencent Cloud - Moscow, Russia [cos.eu-moscow.myqcloud.com]"
+
+[hosts.rusp_edis_at]
+ip = "rusp.edis.at"
+description = "[RU] EDIS - St. Petersburg, Russian Federation [rusp.edis.at]"
+
+[hosts.lg_veesp_com]
+ip = "lg.veesp.com"
+description = "[RU] Veesp / Fishnet Сommunications - St. Petersburg, Russia [lg.veesp.com]"
+
+[hosts.speedtest_spb_gldn_net]
+ip = "speedtest.spb.gldn.net"
+description = "[RU] Vimpelcom - Saint Petersburg, Russian Federation [speedtest.spb.gldn.net]"
+
+[hosts.ru-led01_lg_zeptovm_com]
+ip = "ru-led01.lg.zeptovm.com"
+description = "[RU] ZeptoVM / Misaka Networks - St. Petersburg, Russia [ru-led01.lg.zeptovm.com]"
+
+[hosts.speed_ttknn_net]
+ip = "speed.ttknn.net"
+description = "[RU] TransTelecom TTK - Nizhny Novgorod, Russian Federation [speed.ttknn.net]"
+
+[hosts.speedtest_rostov_ertelecom_ru]
+ip = "speedtest.rostov.ertelecom.ru"
+description = "[RU] ER-Telecom - Rostov-on-Don, Russian Federation [speedtest.rostov.ertelecom.ru]"
+
+[hosts.core1_kbp1_he_net]
+ip = "core1.kbp1.he.net"
+description = "[UA] Hurricane Electric - NewTelco Ukraine - Kiev, UA [core1.kbp1.he.net]"
+
+[hosts.www_speedtest_kyivstar_ua]
+ip = "www.speedtest.kyivstar.ua"
+description = "[UA] Kyivstar - Kiev, Ukraine [www.speedtest.kyivstar.ua]"
+
+[hosts.kharkovspeedtest_vodafone_ua]
+ip = "kharkovspeedtest.vodafone.ua"
+description = "[UA] Vodafone - Kharkiv, Ukraine [kharkovspeedtest.vodafone.ua]"
+
+[hosts.ro_edis_at]
+ip = "ro.edis.at"
+description = "[RO] EDIS - Bucharest, Romania [ro.edis.at]"
+
+[hosts.lg-m247_hostclean_net]
+ip = "lg-m247.hostclean.net"
+description = "[RO] HostClean @ M247 - Bucharest, Romania [lg-m247.hostclean.net]"
+
+[hosts.185_183_99_8]
+ip = "185.183.99.8"
+description = "[RO] HostSailor @ M247 - Bucharest, Romania [185.183.99.8]"
+
+[hosts.secure_hostsolutions_ro]
+ip = "secure.hostsolutions.ro"
+description = "[RO] HostSolutions.ro (S.C. Parfumuri-Femei.com S.R.L.) - Romania [secure.hostsolutions.ro]"
+
+[hosts.cluj_hosterion_net]
+ip = "cluj.hosterion.net"
+description = "[RO] IntoVPS / Hosterion - Cluj-Napoca, Romania [cluj.hosterion.net]"
+
+[hosts.lg-romania_prometeus_net]
+ip = "lg-romania.prometeus.net"
+description = "[RO] Prometeus - Bucharest, Romania [lg-romania.prometeus.net]"
+
+[hosts.85_204_49_17]
+ip = "85.204.49.17"
+description = "[RO] Virtono @ M247 - Bucharest, Romania [85.204.49.17]"
+
+[hosts.speedtestbuc_orangero_net]
+ip = "speedtestbuc.orangero.net"
+description = "[RO] Orange Romania - Bucharest, Romania [speedtestbuc.orangero.net]"
+
+[hosts.md_edis_at]
+ip = "md.edis.at"
+description = "[MD] EDIS - Chisinau, Moldova [md.edis.at]"
+
+[hosts.lg_kiv_md_ultravps_eu]
+ip = "lg.kiv.md.ultravps.eu"
+description = "[MD] UltraVPS - Chisinau, Moldova [lg.kiv.md.ultravps.eu]"
+
+[hosts.lgbg_alphavps_bg]
+ip = "lgbg.alphavps.bg"
+description = "[BG] AlphaVPS - Sofia, Bulgaria @ Telepoint DC [lgbg.alphavps.bg]"
+
+[hosts.bg_edis_at]
+ip = "bg.edis.at"
+description = "[BG] EDIS - Sofia, Bulgaria [bg.edis.at]"
+
+[hosts.speedtest1_bulsat_com]
+ip = "speedtest1.bulsat.com"
+description = "[BG] Bulsatcom - Sofia, Bulgaria [speedtest1.bulsat.com]"
+
+[hosts.speedtest_bih_net_ba]
+ip = "speedtest.bih.net.ba"
+description = "[BA] BH Telecom - Sarajevo, Bosnia and Herzegovina [speedtest.bih.net.ba]"
+
+[hosts.lxpspeed1_vipnet_hr]
+ip = "lxpspeed1.vipnet.hr"
+description = "[HR] A1 Hrvatska - Zagreb, Croatia [lxpspeed1.vipnet.hr]"
+
+[hosts.speedtest_ht_hr]
+ip = "speedtest.ht.hr"
+description = "[HR] Hrvatski Telekom - Zagreb, Croatia [speedtest.ht.hr]"
+
+[hosts.rs_edis_at]
+ip = "rs.edis.at"
+description = "[RS] EDIS - Belgrade, Serbia [rs.edis.at]"
+
+[hosts.mirror_sbb_rs]
+ip = "mirror.sbb.rs"
+description = "[RS] Serbia Broadband - Belgrade, Serbia [mirror.sbb.rs]"
+
+[hosts.si_edis_at]
+ip = "si.edis.at"
+description = "[SI] EDIS - Ljubljana, Slovenia [si.edis.at]"
+
+[hosts.speedtest1_telekom_si]
+ip = "speedtest1.telekom.si"
+description = "[SI] Telekom Slovenije - Ljubljana, Slovenia [speedtest1.telekom.si]"
+
+[hosts.tirana_albtelecom_al]
+ip = "tirana.albtelecom.al"
+description = "[AL] Albtelecom - Tirana, Albania [tirana.albtelecom.al]"
+
+[hosts.speedtest_t-com_me]
+ip = "speedtest.t-com.me"
+description = "[ME] Crnogorski Telekom - Podgorica, Montenegro [speedtest.t-com.me]"
+
+[hosts.speedtest2_cosmote_net]
+ip = "speedtest2.cosmote.net"
+description = "[GR] Cosmote (OTE) - Athens, Greece [speedtest2.cosmote.net]"
+
+[hosts.speedtest_gr-ix_gr]
+ip = "speedtest.gr-ix.gr"
+description = "[GR] GR-IX Greek Internet Exchange - Athens, Greece [speedtest.gr-ix.gr]"
+
+[hosts.speedtest_cosmote_net]
+ip = "speedtest.cosmote.net"
+description = "[GR] Cosmote (OTE) - Thessaloniki, Greece [speedtest.cosmote.net]"
+
+[hosts.185_219_132_125]
+ip = "185.219.132.125"
+description = "[TR] Hostigger - Istanbul, Turkey [185.219.132.125]"
+
+[hosts.medn01_hizinitestet_com]
+ip = "medn01.hizinitestet.com"
+description = "[TR] Turkcell - Istanbul, Turkey [medn01.hizinitestet.com]"
+
+[hosts.speedtest_vodafone_com_tr]
+ip = "speedtest.vodafone.com.tr"
+description = "[TR] Vodafone - Ankara, Turkey [speedtest.vodafone.com.tr]"
+
+[hosts.oss-cn-beijing_aliyuncs_com]
+ip = "oss-cn-beijing.aliyuncs.com"
+description = "[CN] Aliyun / Alibaba Cloud - Beijing, China 中国北京 [oss-cn-beijing.aliyuncs.com]"
+
+[hosts.52_81_0_253]
+ip = "52.81.0.253"
+description = "[CN] Amazon Web Services (cn-north1 @ Sinnet) - Beijing, China [52.81.0.253]"
+
+[hosts.43_240_244_14]
+ip = "43.240.244.14"
+description = "[CN] Anchnet - Beijing, China (Yizhuang BGP) [43.240.244.14]"
+
+[hosts.ecs_cn-north-1_myhuaweicloud_com]
+ip = "ecs.cn-north-1.myhuaweicloud.com"
+description = "[CN] Huawei Cloud - Beijing 1, China [ecs.cn-north-1.myhuaweicloud.com]"
+
+[hosts.cos_ap-beijing_myqcloud_com]
+ip = "cos.ap-beijing.myqcloud.com"
+description = "[CN] Tencent Cloud - Beijing, China [cos.ap-beijing.myqcloud.com]"
+
+[hosts.pan_baidu_com]
+ip = "pan.baidu.com"
+description = "[CN] BaiduPan [pan.baidu.com]"
+
+[hosts.mirrors_tuna_tsinghua_edu_cn]
+ip = "mirrors.tuna.tsinghua.edu.cn"
+description = "[CN] Tsinghua University - Beijing, China [mirrors.tuna.tsinghua.edu.cn]"
+
+[hosts.oss-cn-qingdao_aliyuncs_com]
+ip = "oss-cn-qingdao.aliyuncs.com"
+description = "[CN] Aliyun / Alibaba Cloud - Qingdao, Shandong 中国青岛 [oss-cn-qingdao.aliyuncs.com]"
+
+[hosts.oss-cn-zhangjiakou_aliyuncs_com]
+ip = "oss-cn-zhangjiakou.aliyuncs.com"
+description = "[CN] Aliyun / Alibaba Cloud - Zhangjiakou, Hebei 中国张家口 [oss-cn-zhangjiakou.aliyuncs.com]"
+
+[hosts.ping_dlbgp_cloudiplc_com]
+ip = "ping.dlbgp.cloudiplc.com"
+description = "[CN] CloudIPLC - Dalian, Liaoning 大连BGP [ping.dlbgp.cloudiplc.com]"
+
+[hosts.oss-cn-huhehaote_aliyuncs_com]
+ip = "oss-cn-huhehaote.aliyuncs.com"
+description = "[CN] Aliyun / Alibaba Cloud - Hohhot, Inner Mongolia 中国呼和浩特 [oss-cn-huhehaote.aliyuncs.com]"
+
+[hosts.52_82_0_253]
+ip = "52.82.0.253"
+description = "[CN] Amazon Web Services (cn-northwest1 @ NWCD) - Ningxia, China [52.82.0.253]"
+
+[hosts.111_6_79_1]
+ip = "111.6.79.1"
+description = "[CN] TCloud @ China Mobile - Nanyang, Henan 南阳移动 [111.6.79.1]"
+
+[hosts.117_159_147_1]
+ip = "117.159.147.1"
+description = "[CN] UOvZ @ China Mobile - Henan 河南移动 [117.159.147.1]"
+
+[hosts.oss-cn-shanghai_aliyuncs_com]
+ip = "oss-cn-shanghai.aliyuncs.com"
+description = "[CN] Aliyun / Alibaba Cloud - Shanghai 中国上海 [oss-cn-shanghai.aliyuncs.com]"
+
+[hosts.43_254_150_12]
+ip = "43.254.150.12"
+description = "[CN] Anchnet - Shanghai (TL BGP) [43.254.150.12]"
+
+[hosts.101_227_69_37]
+ip = "101.227.69.37"
+description = "[CN] Anchnet @ China Telecom - Shanghai (Hulan CT) [101.227.69.37]"
+
+[hosts.103_20_251_7]
+ip = "103.20.251.7"
+description = "[CN] Anchnet - Shanghai (Hulan Premium BGP) [103.20.251.7]"
+
+[hosts.112_65_240_161]
+ip = "112.65.240.161"
+description = "[CN] Anchnet @ China Unicom - Shanghai, China (Beiai CU) [112.65.240.161]"
+
+[hosts.cos_ap-shanghai_myqcloud_com]
+ip = "cos.ap-shanghai.myqcloud.com"
+description = "[CN] Tencent Cloud - Shanghai, China [cos.ap-shanghai.myqcloud.com]"
+
+[hosts.mirrors_ustc_edu_cn]
+ip = "mirrors.ustc.edu.cn"
+description = "[CN] University of Science and Technology of China - Hefei, Anhui, China [mirrors.ustc.edu.cn]"
+
+[hosts.103_21_119_48]
+ip = "103.21.119.48"
+description = "[CN] Anchnet - Wuxi, Jiangsu (BGP) [103.21.119.48]"
+
+[hosts.ping_xzcu_cloudiplc_com]
+ip = "ping.xzcu.cloudiplc.com"
+description = "[CN] CloudIPLC @ China Unicom - Xuzhou, Jiangsu 徐州联通 [ping.xzcu.cloudiplc.com]"
+
+[hosts.ping_jscm_cloudiplc_com]
+ip = "ping.jscm.cloudiplc.com"
+description = "[CN] CloudIPLC @ China Mobile - Jiangsu 江苏移动 [ping.jscm.cloudiplc.com]"
+
+[hosts.58_218_210_1]
+ip = "58.218.210.1"
+description = "[CN] Star.do @ China Telecom - Xuzhou, Jiangsu (DDoS Protected) [58.218.210.1]"
+
+[hosts.222_186_52_1]
+ip = "222.186.52.1"
+description = "[CN] TCloud @ China Telecom - Zhenjiang, Jiangsu 镇江电信 [222.186.52.1]"
+
+[hosts.58_218_201_1]
+ip = "58.218.201.1"
+description = "[CN] UOvZ @ China Telecom - Xuzhou, Jiangsu 徐州电信 DDoS Protected [58.218.201.1]"
+
+[hosts.112_85_239_1]
+ip = "112.85.239.1"
+description = "[CN] UOvZ @ China Unicom - Xuzhou, Jiangsu 徐州联通 [112.85.239.1]"
+
+[hosts.oss-cn-hangzhou_aliyuncs_com]
+ip = "oss-cn-hangzhou.aliyuncs.com"
+description = "[CN] Aliyun / Alibaba Cloud - Hangzhou, Zhejiang 中国杭州 [oss-cn-hangzhou.aliyuncs.com]"
+
+[hosts.103_88_33_1]
+ip = "103.88.33.1"
+description = "[CN] TCloud - Ningbo, Zhejiang 宁波BGP [103.88.33.1]"
+
+[hosts.115_231_235_254]
+ip = "115.231.235.254"
+description = "[CN] TCloud - Jiaxing, Zhejiang 嘉兴双线 [115.231.235.254]"
+
+[hosts.oss-cn-shenzhen_aliyuncs_com]
+ip = "oss-cn-shenzhen.aliyuncs.com"
+description = "[CN] Aliyun / Alibaba Cloud - Shenzhen, Guangdong 中国深圳 [oss-cn-shenzhen.aliyuncs.com]"
+
+[hosts.117_48_194_97]
+ip = "117.48.194.97"
+description = "[CN] Anchnet - Shenzhen, China (GDS BGP) [117.48.194.97]"
+
+[hosts.14_215_171_1]
+ip = "14.215.171.1"
+description = "[CN] TCloud @ China Telecom - Guangzhou 广州电信 [14.215.171.1]"
+
+[hosts.cos_ap-guangzhou_myqcloud_com]
+ip = "cos.ap-guangzhou.myqcloud.com"
+description = "[CN] Tencent Cloud - Guangzhou, China [cos.ap-guangzhou.myqcloud.com]"
+
+[hosts.cos_ap-chengdu_myqcloud_com]
+ip = "cos.ap-chengdu.myqcloud.com"
+description = "[CN] Tencent Cloud - Chengdu, China [cos.ap-chengdu.myqcloud.com]"
+
+[hosts.as_cn-southwest-2_myhuaweicloud_com]
+ip = "as.cn-southwest-2.myhuaweicloud.com"
+description = "[CN] Huawei Cloud - Guiyang, China [as.cn-southwest-2.myhuaweicloud.com]"
+
+[hosts.ping_qzcm_cloudiplc_com]
+ip = "ping.qzcm.cloudiplc.com"
+description = "[CN] CloudIPLC @ China Mobile - Quanzhou, Fujian 泉州移动 [ping.qzcm.cloudiplc.com]"
+
+[hosts.ping_qzcn2_cloudiplc_com]
+ip = "ping.qzcn2.cloudiplc.com"
+description = "[CN] CloudIPLC @ CN2 - Quanzhou, Fujian 泉州CN2 [ping.qzcn2.cloudiplc.com]"
+
+[hosts.112_47_15_1]
+ip = "112.47.15.1"
+description = "[CN] UOvZ @ China Mobile - Fujian 福建移动 [112.47.15.1]"
+
+[hosts.lg_shatin_hkg_50network_com]
+ip = "lg.shatin.hkg.50network.com"
+description = "[HK] 50KVM - Hong Kong, China [lg.shatin.hkg.50network.com]"
+
+[hosts.oss-cn-hongkong_aliyuncs_com]
+ip = "oss-cn-hongkong.aliyuncs.com"
+description = "[HK] Aliyun / Alibaba Cloud - Hong Kong, China [oss-cn-hongkong.aliyuncs.com]"
+
+[hosts.118_193_193_24]
+ip = "118.193.193.24"
+description = "[HK] Anchnet - Hong Kong, China (BGP) [118.193.193.24]"
+
+[hosts.23_252_97_148]
+ip = "23.252.97.148"
+description = "[HK] BandwagonHost (IT7 Networks) @ PCCW - Hong Kong, China [23.252.97.148]"
+
+[hosts.203_14_188_1]
+ip = "203.14.188.1"
+description = "[HK] China Telecom Global - Hong Kong, China [203.14.188.1]"
+
+[hosts.www_chinaunicomglobal_com]
+ip = "www.chinaunicomglobal.com"
+description = "[HK] China Unicom Global - Hong Kong, China [www.chinaunicomglobal.com]"
+
+[hosts.speedtest_c1_hkg1_dediserve_com]
+ip = "speedtest.c1.hkg1.dediserve.com"
+description = "[HK] Dediserve - Hong Kong, China [speedtest.c1.hkg1.dediserve.com]"
+
+[hosts.193_110_200_233]
+ip = "193.110.200.233"
+description = "[HK] DMIT (PVM.n2) - Hong Kong, China [193.110.200.233]"
+
+[hosts.hk_edis_at]
+ip = "hk.edis.at"
+description = "[HK] EDIS - New Territories, Hong Kong [hk.edis.at]"
+
+[hosts.43_251_159_10]
+ip = "43.251.159.10"
+description = "[HK] GigsGigsCloud / TechAvenue - Hong Kong, China [43.251.159.10]"
+
+[hosts.210_3_96_1]
+ip = "210.3.96.1"
+description = "[HK] HKServerSolution @ HGC Global Communications - Hong Kong, China [210.3.96.1]"
+
+[hosts.hk_lg_klayer_com]
+ip = "hk.lg.klayer.com"
+description = "[HK] KLayer - Hong Kong, China [hk.lg.klayer.com]"
+
+[hosts.42_200_162_254]
+ip = "42.200.162.254"
+description = "[HK] LightCloud @ Hong Kong Telecommunications (HKT) - Hong Kong, China [42.200.162.254]"
+
+[hosts.mirror_hk_leaseweb_net]
+ip = "mirror.hk.leaseweb.net"
+description = "[HK] LeaseWeb - Hong Kong, China [mirror.hk.leaseweb.net]"
+
+[hosts.103_122_119_1]
+ip = "103.122.119.1"
+description = "[HK] On9host - Hong Kong, China [103.122.119.1]"
+
+[hosts.61_238_140_253]
+ip = "61.238.140.253"
+description = "[HK] Pumpcloud @ Hong Kong Broadband Network (HKBN) - Hong Kong, China [61.238.140.253]"
+
+[hosts.hkg_speedtest_rackspace_com]
+ip = "hkg.speedtest.rackspace.com"
+description = "[HK] Rackspace - Hong Kong, China [hkg.speedtest.rackspace.com]"
+
+[hosts.hk4_lg_starrydns_com]
+ip = "hk4.lg.starrydns.com"
+description = "[HK] StarryDNS (HK4) - Hong Kong, China [hk4.lg.starrydns.com]"
+
+[hosts.hongkong-lg_ransomit_com_au]
+ip = "hongkong-lg.ransomit.com.au"
+description = "[HK] Ransom IT - Hong Kong, China [hongkong-lg.ransomit.com.au]"
+
+[hosts.speedtest_hkg02_softlayer_com]
+ip = "speedtest.hkg02.softlayer.com"
+description = "[HK] SoftLayer - Hong Kong, China [speedtest.hkg02.softlayer.com]"
+
+[hosts.cos_ap-hongkong_myqcloud_com]
+ip = "cos.ap-hongkong.myqcloud.com"
+description = "[HK] Tencent Cloud - Hong Kong, China [cos.ap-hongkong.myqcloud.com]"
+
+[hosts.103_107_8_1]
+ip = "103.107.8.1"
+description = "[HK] UOvZ @ HKBN, 66.TO - Hong Kong, China [103.107.8.1]"
+
+[hosts.103_228_130_1]
+ip = "103.228.130.1"
+description = "[HK] UOvZ @ NWT, VpsQuan - Hong Kong, China [103.228.130.1]"
+
+[hosts.mirrors_xtom_com_hk]
+ip = "mirrors.xtom.com.hk"
+description = "[HK] xTom - Hong Kong, China [mirrors.xtom.com.hk]"
+
+[hosts.103_237_127_30]
+ip = "103.237.127.30"
+description = "[MO] Mokvm @ MTel - Macau, China [103.237.127.30]"
+
+[hosts.202_175_167_1]
+ip = "202.175.167.1"
+description = "[MO] Mokvm @ CTM (Business) - Macau, China [202.175.167.1]"
+
+[hosts.asia-east1-gce_cloudharmony_net]
+ip = "asia-east1-gce.cloudharmony.net"
+description = "[TW] Google Cloud Platform (asia-east1) - Changhua County, Taiwan [asia-east1-gce.cloudharmony.net]"
+
+[hosts.125_227_212_32]
+ip = "125.227.212.32"
+description = "[TW] Hurricanecloud @ HiNet (Static) - Changhua, Taiwan [125.227.212.32]"
+
+[hosts.lg_tw_psychz_net]
+ip = "lg.tw.psychz.net"
+description = "[TW] Psychz - Taiwan [lg.tw.psychz.net]"
+
+[hosts.osdn_net]
+ip = "osdn.net"
+description = "[JP] OSDN @ IIJ [osdn.net]"
+
+[hosts.oss-ap-northeast-1_aliyuncs_com]
+ip = "oss-ap-northeast-1.aliyuncs.com"
+description = "[JP] Aliyun - Tokyo, Japan [oss-ap-northeast-1.aliyuncs.com]"
+
+[hosts.18_182_0_0]
+ip = "18.182.0.0"
+description = "[JP] Amazon Web Services (ap-northeast-2) - Tokyo, Japan [18.182.0.0]"
+
+[hosts.203_80_137_1]
+ip = "203.80.137.1"
+description = "[JP] China Telecom Global - Japan [203.80.137.1]"
+
+[hosts.speedtest_c1_jap1_dediserve_com]
+ip = "speedtest.c1.jap1.dediserve.com"
+description = "[JP] Dediserve - Tokyo, Japan [speedtest.c1.jap1.dediserve.com]"
+
+[hosts.asia-northeast1-gce_cloudharmony_net]
+ip = "asia-northeast1-gce.cloudharmony.net"
+description = "[JP] Google Cloud Platform (asia-northeast1) - Tokyo, Japan [asia-northeast1-gce.cloudharmony.net]"
+
+[hosts.speedtest_tokyo2_linode_com]
+ip = "speedtest.tokyo2.linode.com"
+description = "[JP] Linode (Tokyo 2) - Tokyo, Japan [speedtest.tokyo2.linode.com]"
+
+[hosts.193_38_139_1]
+ip = "193.38.139.1"
+description = "[JP] OneVPS (Think Huge Ltd.) @ M247 - Japan [193.38.139.1]"
+
+[hosts.lg_jp_psychz_net]
+ip = "lg.jp.psychz.net"
+description = "[JP] Psychz - Tokyo, Japan [lg.jp.psychz.net]"
+
+[hosts.tokyo-lg_ransomit_com_au]
+ip = "tokyo-lg.ransomit.com.au"
+description = "[JP] Ransom IT - Tokyo, Japan [tokyo-lg.ransomit.com.au]"
+
+[hosts.speedtest-os1_sa_net]
+ip = "speedtest-os1.sa.net"
+description = "[JP] Riven Cloud - Osaka, Japan [speedtest-os1.sa.net]"
+
+[hosts.speedtest-ty1_sa_net]
+ip = "speedtest-ty1.sa.net"
+description = "[JP] Riven Cloud - Tokyo, Japan [speedtest-ty1.sa.net]"
+
+[hosts.sakura_ne_jp]
+ip = "sakura.ne.jp"
+description = "[JP] Sakura Internet [sakura.ne.jp]"
+
+[hosts.speedtest_tok02_softlayer_com]
+ip = "speedtest.tok02.softlayer.com"
+description = "[JP] SoftLayer (tok02) - Tokyo, Japan [speedtest.tok02.softlayer.com]"
+
+[hosts.jp4_lg_starrydns_com]
+ip = "jp4.lg.starrydns.com"
+description = "[JP] StarryDNS  - Tokyo, Japan [jp4.lg.starrydns.com]"
+
+[hosts.tky-b1_telia_net]
+ip = "tky-b1.telia.net"
+description = "[JP] Telia - Tokyo, Japan [tky-b1.telia.net]"
+
+[hosts.cos_ap-tokyo_myqcloud_com]
+ip = "cos.ap-tokyo.myqcloud.com"
+description = "[JP] Tencent Cloud - Tokyo, Japan [cos.ap-tokyo.myqcloud.com]"
+
+[hosts.hnd-jp-ping_vultr_com]
+ip = "hnd-jp-ping.vultr.com"
+description = "[JP] Vultr / Choopa - Tokyo, Japan [hnd-jp-ping.vultr.com]"
+
+[hosts.54_180_0_0]
+ip = "54.180.0.0"
+description = "[KR] Amazon Web Services (ap-northeast-1) - Seoul, South Korea [54.180.0.0]"
+
+[hosts.speedtest_kdatacenter_com]
+ip = "speedtest.kdatacenter.com"
+description = "[KR] Kdatacenter [speedtest.kdatacenter.com]"
+
+[hosts.lg_moack_co_kr]
+ip = "lg.moack.co.kr"
+description = "[KR] Moack AS138195 - Seoul, Korea [lg.moack.co.kr]"
+
+[hosts.speedtest_seo01_softlayer_com]
+ip = "speedtest.seo01.softlayer.com"
+description = "[KR] SoftLayer (seo01) - Seoul, South Korea [speedtest.seo01.softlayer.com]"
+
+[hosts.cos_ap-seoul_myqcloud_com]
+ip = "cos.ap-seoul.myqcloud.com"
+description = "[KR] Tencent Cloud - Seoul, Korea [cos.ap-seoul.myqcloud.com]"
+
+[hosts.khb_speedtest-dvf_megafon_ru]
+ip = "khb.speedtest-dvf.megafon.ru"
+description = "[RU] MegaFon - Khabarovsk, Russian Federation [khb.speedtest-dvf.megafon.ru]"
+
+[hosts.103_102_4_4]
+ip = "103.102.4.4"
+description = "[RU] RFChost / Huajuan / BetaIDC - Khabarovsk, Russia [103.102.4.4]"
+
+[hosts.87_225_45_1]
+ip = "87.225.45.1"
+description = "[RU] XHostFire @ Rostelecom, TTK - Khabarovsk, Russia [87.225.45.1]"
+
+[hosts.185_209_84_233]
+ip = "185.209.84.233"
+description = "[RU] ZeptoVM / Misaka Networks @ G-Core Labs - Khabarovsk, Russia [185.209.84.233]"
+
+[hosts.lg-adman_justhost_ru]
+ip = "lg-adman.justhost.ru"
+description = "[RU] JustHost.ru @ Adman - Novosibirsk, Russia [lg-adman.justhost.ru]"
+
+[hosts.95_167_6_12]
+ip = "95.167.6.12"
+description = "[RU] Rostelecom - Novosibirsk, Russia [95.167.6.12]"
+
+[hosts.ekaterinburg2_speedtest_rt_ru]
+ip = "ekaterinburg2.speedtest.rt.ru"
+description = "[RU] Rostelecom - Ekaterinburg, Russian Federation [ekaterinburg2.speedtest.rt.ru]"
+
+[hosts.speedcheck1_vdv_vimpelcom_ru]
+ip = "speedcheck1.vdv.vimpelcom.ru"
+description = "[RU] VimpelCom Beeline - Vladivostok, Russian Federation [speedcheck1.vdv.vimpelcom.ru]"
+
+[hosts.speedtest_amur_ru]
+ip = "speedtest.amur.ru"
+description = "[RU] Rostelecom - Blagoveshchensk, Russian Federation [speedtest.amur.ru]"
+
+[hosts.speedtest_irkutsk_ertelecom_ru]
+ip = "speedtest.irkutsk.ertelecom.ru"
+description = "[RU] ER-Telecom - Irkutsk, Russian Federation [speedtest.irkutsk.ertelecom.ru]"
+
+[hosts.oss-ap-southeast-1_aliyuncs_com]
+ip = "oss-ap-southeast-1.aliyuncs.com"
+description = "[SG] Aliyun / Alibaba Cloud - Singapore [oss-ap-southeast-1.aliyuncs.com]"
+
+[hosts.54_255_0_2]
+ip = "54.255.0.2"
+description = "[SG] Amazon Web Services (ap-southeast-1) - Singapore [54.255.0.2]"
+
+[hosts.103_19_9_9]
+ip = "103.19.9.9"
+description = "[SG] Beyotta - Singapore [103.19.9.9]"
+
+[hosts.203_33_10_1]
+ip = "203.33.10.1"
+description = "[SG] China Telecom Global - Singapore [203.33.10.1]"
+
+[hosts.speedtest_c1_sin1_dediserve_com]
+ip = "speedtest.c1.sin1.dediserve.com"
+description = "[SG] Dediserve - Singapore [speedtest.c1.sin1.dediserve.com]"
+
+[hosts.speedtest-sgp1_digitalocean_com]
+ip = "speedtest-sgp1.digitalocean.com"
+description = "[SG] Digital Ocean (SGP1) - Singapore [speedtest-sgp1.digitalocean.com]"
+
+[hosts.asia-southeast1-gce_cloudharmony_net]
+ip = "asia-southeast1-gce.cloudharmony.net"
+description = "[SG] Google Cloud Platform (asia-southeast1) - Singapore [asia-southeast1-gce.cloudharmony.net]"
+
+[hosts.27_122_59_1]
+ip = "27.122.59.1"
+description = "[SG] GigsGigsCloud / TechAvenue - Singapore [27.122.59.1]"
+
+[hosts.mirror_sg_leaseweb_net]
+ip = "mirror.sg.leaseweb.net"
+description = "[SG] LeaseWeb - Singapore [mirror.sg.leaseweb.net]"
+
+[hosts.sg_lg_klayer_com]
+ip = "sg.lg.klayer.com"
+description = "[SG] KLayer - Singapore [sg.lg.klayer.com]"
+
+[hosts.speedtest_singapore_linode_com]
+ip = "speedtest.singapore.linode.com"
+description = "[SG] Linode - Singapore [speedtest.singapore.linode.com]"
+
+[hosts.lg-sg-sin_mrvm_net]
+ip = "lg-sg-sin.mrvm.net"
+description = "[SG] mrvm.net @ Equinix SG3 - Singapore [lg-sg-sin.mrvm.net]"
+
+[hosts.81_90_189_197]
+ip = "81.90.189.197"
+description = "[SG] OneVPS (Think Huge Ltd.) @ M247 - Singapore [81.90.189.197]"
+
+[hosts.sgp_smokeping_ovh_net]
+ip = "sgp.smokeping.ovh.net"
+description = "[SG] OVH - Singapore [sgp.smokeping.ovh.net]"
+
+[hosts.www_sg_gs]
+ip = "www.sg.gs"
+description = "[SG] SG.GS - Singapore [www.sg.gs]"
+
+[hosts.sg1_lg_starrydns_com]
+ip = "sg1.lg.starrydns.com"
+description = "[SG] StarryDNS - Singapore [sg1.lg.starrydns.com]"
+
+[hosts.cos_ap-singapore_myqcloud_com]
+ip = "cos.ap-singapore.myqcloud.com"
+description = "[SG] Tencent Cloud - Singapore [cos.ap-singapore.myqcloud.com]"
+
+[hosts.sgp-ping_vultr_com]
+ip = "sgp-ping.vultr.com"
+description = "[SG] Vultr / Choopa - Singapore [sgp-ping.vultr.com]"
+
+[hosts.oss-ap-southeast-5_aliyuncs_com]
+ip = "oss-ap-southeast-5.aliyuncs.com"
+description = "[ID] Aliyun - Jakarta, Indonesia [oss-ap-southeast-5.aliyuncs.com]"
+
+[hosts.speedtest_c1_jkt1_dediserve_com]
+ip = "speedtest.c1.jkt1.dediserve.com"
+description = "[ID] Dediserve - Jakarta, Indonesia [speedtest.c1.jkt1.dediserve.com]"
+
+[hosts.oss-ap-southeast-3_aliyuncs_com]
+ip = "oss-ap-southeast-3.aliyuncs.com"
+description = "[MY] Aliyun - Kuala Lumpur, Malaysia [oss-ap-southeast-3.aliyuncs.com]"
+
+[hosts.210_1_226_1]
+ip = "210.1.226.1"
+description = "[MY] GigsGigsCloud / TechAvenue - Malaysia [210.1.226.1]"
+
+[hosts.116_93_97_1]
+ip = "116.93.97.1"
+description = "[PH] CloudSigma - Manila, Philippines [116.93.97.1]"
+
+[hosts.ecs_ap-southeast-2_myhuaweicloud_com]
+ip = "ecs.ap-southeast-2.myhuaweicloud.com"
+description = "[TH] Huawei Cloud - Bangkok, Thailand [ecs.ap-southeast-2.myhuaweicloud.com]"
+
+[hosts.cos_ap-bangkok_myqcloud_com]
+ip = "cos.ap-bangkok.myqcloud.com"
+description = "[TH] Tencent Cloud - Bangkok, Thailand [cos.ap-bangkok.myqcloud.com]"
+
+[hosts.cambo_host]
+ip = "cambo.host"
+description = "[KH] Cambo.Host [cambo.host]"
+
+[hosts.103_81_86_64]
+ip = "103.81.86.64"
+description = "[VN] HostingViet @ FPT Telecom [103.81.86.64]"
+
+[hosts.oss-ap-south-1_aliyuncs_com]
+ip = "oss-ap-south-1.aliyuncs.com"
+description = "[IN] Aliyun - Mumbai, India [oss-ap-south-1.aliyuncs.com]"
+
+[hosts.13_232_0_253]
+ip = "13.232.0.253"
+description = "[IN] Amazon Web Services (ap-southeast-2) - Mumbai, India [13.232.0.253]"
+
+[hosts.speedtest-blr1_digitalocean_com]
+ip = "speedtest-blr1.digitalocean.com"
+description = "[IN] Digital Ocean (BLR1) - Bangladore, India [speedtest-blr1.digitalocean.com]"
+
+[hosts.speedtest_mum1_linode_com]
+ip = "speedtest.mum1.linode.com"
+description = "[IN] Linode - Mumbai, India [speedtest.mum1.linode.com]"
+
+[hosts.speedtest_che01_softlayer_com]
+ip = "speedtest.che01.softlayer.com"
+description = "[IN] SoftLayer (che01) - Chennai, India [speedtest.che01.softlayer.com]"
+
+[hosts.lg_in_psychz_net]
+ip = "lg.in.psychz.net"
+description = "[IN] Psychz - Mumbai, India [lg.in.psychz.net]"
+
+[hosts.cos_ap-mumbai_myqcloud_com]
+ip = "cos.ap-mumbai.myqcloud.com"
+description = "[IN] Tencent Cloud - Mumbai, India [cos.ap-mumbai.myqcloud.com]"
+
+[hosts.speedtestmum_tataskybroadband_com]
+ip = "speedtestmum.tataskybroadband.com"
+description = "[IN] Tatasky Broadband Pvt Ltd. - Mumbai, India [speedtestmum.tataskybroadband.com]"
+
+[hosts.speedtestdel_airtelbroadband_in]
+ip = "speedtestdel.airtelbroadband.in"
+description = "[IN] Bharti Airtel Ltd - Delhi, India [speedtestdel.airtelbroadband.in]"
+
+[hosts.speedtestdel_vodafone_ind_in]
+ip = "speedtestdel.vodafone.ind.in"
+description = "[IN] Vodafone India - Delhi, India [speedtestdel.vodafone.ind.in]"
+
+[hosts.speedbgl1_jioconnect_com]
+ip = "speedbgl1.jioconnect.com"
+description = "[IN] Jio - Bangalore, India [speedbgl1.jioconnect.com]"
+
+[hosts.speedtest1_telenor_com_pk]
+ip = "speedtest1.telenor.com.pk"
+description = "[PK] Telenor - Islamabad, Pakistan [speedtest1.telenor.com.pk]"
+
+[hosts.testspeed1_teletalk_com_bd]
+ip = "testspeed1.teletalk.com.bd"
+description = "[BD] Teletalk Bangladesh - Dhaka, Bangladesh [testspeed1.teletalk.com.bd]"
+
+[hosts.www_vnpt_vn]
+ip = "www.vnpt.vn"
+description = "[VN] VNPT (Vietnam Posts and Telecommunications Group) [www.vnpt.vn]"
+
+[hosts.oss-me-east-1_aliyuncs_com]
+ip = "oss-me-east-1.aliyuncs.com"
+description = "[AE] Aliyun - Dubai, United Arab Emirates [oss-me-east-1.aliyuncs.com]"
+
+[hosts.core1_dxb1_he_net]
+ip = "core1.dxb1.he.net"
+description = "[AE] Hurricane Electric - Equinix Dubai (DX1) Dubai, AE [core1.dxb1.he.net]"
+
+[hosts.lg_emix_net_ae]
+ip = "lg.emix.net.ae"
+description = "[AE] Etisalat AS8966 @ EmIX [lg.emix.net.ae]"
+
+[hosts.il_edis_at]
+ip = "il.edis.at"
+description = "[IL] EDIS - Tel Aviv, Israel [il.edis.at]"
+
+[hosts.speedtest2_partner_co_il]
+ip = "speedtest2.partner.co.il"
+description = "[IL] Partner Communications - Tel Aviv, Israel [speedtest2.partner.co.il]"
+
+[hosts.speedtest3_pelephone_net_il]
+ip = "speedtest3.pelephone.net.il"
+description = "[IL] Pelephone - Tel Aviv, Israel [speedtest3.pelephone.net.il]"
+
+[hosts.213_244_72_22]
+ip = "213.244.72.22"
+description = "[PS] PALTEL Group - Gaza, Palestine [213.244.72.22]"
+
+[hosts.sp1_terra_net_lb]
+ip = "sp1.terra.net.lb"
+description = "[LB] TerraNet - Beirut, Lebanon [sp1.terra.net.lb]"
+
+[hosts.speedtest_orange_jo]
+ip = "speedtest.orange.jo"
+description = "[JO] Orange Jordan - Amman, Jordan [speedtest.orange.jo]"
+
+[hosts.speedtest_zaindata_com_jo]
+ip = "speedtest.zaindata.com.jo"
+description = "[JO] ZAIN JO - Amman, Jordan [speedtest.zaindata.com.jo]"
+
+[hosts.speedtest_saudi_net_sa]
+ip = "speedtest.saudi.net.sa"
+description = "[SA] Saudi Telecom Company - Riyadh, Saudi Arabia [speedtest.saudi.net.sa]"
+
+[hosts.jed_myspeed_net_sa]
+ip = "jed.myspeed.net.sa"
+description = "[SA] Mobily - Jeddah, Saudi Arabia [jed.myspeed.net.sa]"
+
+[hosts.speedtest_vodafone_com_qa]
+ip = "speedtest.vodafone.com.qa"
+description = "[QA] Vodafone QA - Doha, Qatar [speedtest.vodafone.com.qa]"
+
+[hosts.tci-tehran_tct_ir]
+ip = "tci-tehran.tct.ir"
+description = "[IR] TCI - Tehran, Iran [tci-tehran.tct.ir]"
+
+[hosts.speedtest1_shatel_ir]
+ip = "speedtest1.shatel.ir"
+description = "[IR] SHATEL - Tehran, Iran [speedtest1.shatel.ir]"
+
+[hosts.86_111_144_210]
+ip = "86.111.144.210"
+description = "[IQ] MASARAT Telecom - Baghdad, Iraq [86.111.144.210]"
+
+[hosts.speedtest1_earthlinktele_com]
+ip = "speedtest1.earthlinktele.com"
+description = "[IQ] Earthlink Telecom - Baghdad, Iraq [speedtest1.earthlinktele.com]"
+
+[hosts.sp5_fastiraq_com]
+ip = "sp5.fastiraq.com"
+description = "[IQ] Fastiraq LLC - Al Basrah, Iraq [sp5.fastiraq.com]"
+
+[hosts.kw_zain_com]
+ip = "kw.zain.com"
+description = "[KW] Zain Kuwait [kw.zain.com]"
+
+[hosts.212_72_10_134]
+ip = "212.72.10.134"
+description = "[OM] OmanTel [212.72.10.134]"
+
+[hosts.www_teleyemen_com_ye]
+ip = "www.teleyemen.com.ye"
+description = "[YE] TeleYemen [www.teleyemen.com.ye]"
+
+[hosts.speedtest_cytanet_com_cy]
+ip = "speedtest.cytanet.com.cy"
+description = "[CY] CYTANET - Nicosia, Cyprus [speedtest.cytanet.com.cy]"
+
+[hosts.speedtest1_magticom_ge]
+ip = "speedtest1.magticom.ge"
+description = "[GE] Magticom Ltd. - Tbilisi, Georgia [speedtest1.magticom.ge]"
+
+[hosts.hoster_kg]
+ip = "hoster.kg"
+description = "[KG] Hoster.KG - Bishkek, Kyrgyzstan [hoster.kg]"
+
+[hosts.speedtest01_azercell_com]
+ip = "speedtest01.azercell.com"
+description = "[AZ] Azercell Telecom LLC - Baku, Azerbaijan [speedtest01.azercell.com]"
+
+[hosts.188_0_133_159]
+ip = "188.0.133.159"
+description = "[KZ] KazTransCom - Almaty, Kazakhstan [188.0.133.159]"
+
+[hosts.asta_speedtest_online_kz]
+ip = "asta.speedtest.online.kz"
+description = "[KZ] Kazakhtelecom - Astana, Kazakhstan [asta.speedtest.online.kz]"
+
+[hosts.sp1_afghantelecom_af]
+ip = "sp1.afghantelecom.af"
+description = "[AF] Afghan Telecom - Kabul, Afghanistan [sp1.afghantelecom.af]"
+
+[hosts.core1_jnb1_he_net]
+ip = "core1.jnb1.he.net"
+description = "[ZA] Hurricane Electric - Teraco JB1, Johannesburg Johannesburg, GP, ZA [core1.jnb1.he.net]"
+
+[hosts.lg_jnb_psychz_net]
+ip = "lg.jnb.psychz.net"
+description = "[ZA] Psychz - Johannesburg, South Africa [lg.jnb.psychz.net]"
+
+[hosts.speedtest-jb1_sa_net]
+ip = "speedtest-jb1.sa.net"
+description = "[ZA] Riven Cloud @ xTom - Johannesburg, South Africa [speedtest-jb1.sa.net]"
+
+[hosts.lg-za_zappiehost_com]
+ip = "lg-za.zappiehost.com"
+description = "[ZA] ZappieHost [lg-za.zappiehost.com]"
+
+[hosts.za-jnb01_lg_misaka_one]
+ip = "za-jnb01.lg.misaka.one"
+description = "[ZA] ZeptoVM / Misaka Networks - Johannesburg, South Africa [za-jnb01.lg.misaka.one]"
+
+[hosts.lg-01-cpt_za_seacomnet_com]
+ip = "lg-01-cpt.za.seacomnet.com"
+description = "[ZA] SEACOM - Cape Town, South Africa [lg-01-cpt.za.seacomnet.com]"
+
+[hosts.speedtest1_ng_airtel_com]
+ip = "speedtest1.ng.airtel.com"
+description = "[NG] Airtel Nigeria - Lagos, Nigeria [speedtest1.ng.airtel.com]"
+
+[hosts.sp30_etisalatdata_net]
+ip = "sp30.etisalatdata.net"
+description = "[EG] Etisalat Misr - Alexandria, Egypt [sp30.etisalatdata.net]"
+
+[hosts.speedtest3_vodafone_com_eg]
+ip = "speedtest3.vodafone.com.eg"
+description = "[EG] Vodafone - Cairo, Egypt [speedtest3.vodafone.com.eg]"
+
+[hosts.fesst_iam_ma]
+ip = "fesst.iam.ma"
+description = "[MA] Maroc Telecom - Fez, Morocco [fesst.iam.ma]"
+
+[hosts.speedtestcasa1_meditel_net_ma]
+ip = "speedtestcasa1.meditel.net.ma"
+description = "[MA] Orange - Fez, Morocco [speedtestcasa1.meditel.net.ma]"
+
+[hosts.speedtest_djaweb_dz]
+ip = "speedtest.djaweb.dz"
+description = "[DZ] Algerie Telecom - Algiers, Algeria [speedtest.djaweb.dz]"
+
+[hosts.speedtest2_ooredoo_tn]
+ip = "speedtest2.ooredoo.tn"
+description = "[TN] Ooredoo - Tunis, Tunisia [speedtest2.ooredoo.tn]"
+
+[hosts.speedtest_tunisietelecom_tn]
+ip = "speedtest.tunisietelecom.tn"
+description = "[TN] Tunisie Telecom - Tunis, Tunisia [speedtest.tunisietelecom.tn]"
+
+[hosts.hosting_angani_co]
+ip = "hosting.angani.co"
+description = "[KE] Angani - Kenya [hosting.angani.co]"
+
+[hosts.core1_nbo1_he_net]
+ip = "core1.nbo1.he.net"
+description = "[KE] Hurricane Electric - EADC Nairobi Nairobi, KE [core1.nbo1.he.net]"
+
+[hosts.lg-01-mba_ke_seacomnet_com]
+ip = "lg-01-mba.ke.seacomnet.com"
+description = "[KE] SEACOM - Mombasa, Kenya [lg-01-mba.ke.seacomnet.com]"
+
+[hosts.core1_jib1_he_net]
+ip = "core1.jib1.he.net"
+description = "[DJ] Hurricane Electric - Djibouti Data Center, Djibouti Djibouti City, DJ [core1.jib1.he.net]"
+
+[hosts.lg-01-ebb_ug_seacomnet_com]
+ip = "lg-01-ebb.ug.seacomnet.com"
+description = "[UG] SEACOM - Kampala, Uganda [lg-01-ebb.ug.seacomnet.com]"
+
+[hosts.45_221_72_222]
+ip = "45.221.72.222"
+description = "[UG] Uganda Hosting [45.221.72.222]"
+
+[hosts.ltrbandwidth_liquidtelecom_rw]
+ip = "ltrbandwidth.liquidtelecom.rw"
+description = "[RW] liquidtelecom - Kigali, Rwanda [ltrbandwidth.liquidtelecom.rw]"
+
+[hosts.lg-01-dar_tz_seacomnet_com]
+ip = "lg-01-dar.tz.seacomnet.com"
+description = "[TZ] SEACOM - Dar Es Salaam, Tanzania [lg-01-dar.tz.seacomnet.com]"
+
+[hosts.lg-01-mpm_mz_seacomnet_com]
+ip = "lg-01-mpm.mz.seacomnet.com"
+description = "[MZ] SEACOM - Maputo, Mozambique [lg-01-mpm.mz.seacomnet.com]"
+
+[hosts.197_149_150_178]
+ip = "197.149.150.178"
+description = "[AO] Angola Cables - Luanda, Angola [197.149.150.178]"
+
+[hosts.54_94_0_66]
+ip = "54.94.0.66"
+description = "[BR] Amazon Web Services (sa-east-1) - Sao Paulo, Brazil [54.94.0.66]"
+
+[hosts.191_96_4_248]
+ip = "191.96.4.248"
+description = "[BR] Host1Plus - Sao Paulo, Brazil [191.96.4.248]"
+
+[hosts.speedtest_sao01_softlayer_com]
+ip = "speedtest.sao01.softlayer.com"
+description = "[BR] SoftLayer (sao01) - Sao Paulo, Brazil [speedtest.sao01.softlayer.com]"
+
+[hosts.offshoreracks_com]
+ip = "offshoreracks.com"
+description = "[PA] OffshoreRacks - Panama [offshoreracks.com]"
+
+[hosts.www_crservers_cr]
+ip = "www.crservers.cr"
+description = "[CR] CR Servers [www.crservers.cr]"
+
+[hosts.spd5_claro_com_br]
+ip = "spd5.claro.com.br"
+description = "[BR] Claro - Sao Paulo, Brazil [spd5.claro.com.br]"
+
+[hosts.svstsne0101_timbrasil_com_br]
+ip = "svstsne0101.timbrasil.com.br"
+description = "[BR] TIM Brasil - Sao Paulo, Brazil [svstsne0101.timbrasil.com.br]"
+
+[hosts.spd2_claro_com_br]
+ip = "spd2.claro.com.br"
+description = "[BR] Claro - Rio De Janeiro, Brazil [spd2.claro.com.br]"
+
+[hosts.spetstsdr01_timbrasil_com_br]
+ip = "spetstsdr01.timbrasil.com.br"
+description = "[BR] TIM Brasil - Salvador, Brazil [spetstsdr01.timbrasil.com.br]"
+
+[hosts.speed_fibertel_com_ar]
+ip = "speed.fibertel.com.ar"
+description = "[AR] FiberTel - Buenos Aires, Argentina [speed.fibertel.com.ar]"
+
+[hosts.st1_telecom_com_ar]
+ip = "st1.telecom.com.ar"
+description = "[AR] Telecom Argentina - Buenos Aires, Argentina [st1.telecom.com.ar]"
+
+[hosts.stcor1_telecom_com_ar]
+ip = "stcor1.telecom.com.ar"
+description = "[AR] Telecom Argentina - Cordoba, Argentina [stcor1.telecom.com.ar]"
+
+[hosts.cl_edis_at]
+ip = "cl.edis.at"
+description = "[CL] EDIS - Viña del Mar, Chile [cl.edis.at]"
+
+[hosts.speedtest_clarochile_cl]
+ip = "speedtest.clarochile.cl"
+description = "[CL] Claro Chile - Santiago, Chile [speedtest.clarochile.cl]"
+
+[hosts.speedtest-netgauge_movistar_cl]
+ip = "speedtest-netgauge.movistar.cl"
+description = "[CL] Telefonica / Movistar Chile - Santiago, Chile [speedtest-netgauge.movistar.cl]"
+
+[hosts.core1_bog1_he_net]
+ip = "core1.bog1.he.net"
+description = "[CO] Hurricane Electric - Equinix BG1, Bogota Bogota, CO [core1.bog1.he.net]"
+
+[hosts.oss-ap-southeast-2_aliyuncs_com]
+ip = "oss-ap-southeast-2.aliyuncs.com"
+description = "[AU] Aliyun - Sydney, Australia [oss-ap-southeast-2.aliyuncs.com]"
+
+[hosts.54_206_128_2]
+ip = "54.206.128.2"
+description = "[AU] Amazon Web Services (ap-southeast-2) - Sydney, Australia [54.206.128.2]"
+
+[hosts.218_100_88_244]
+ip = "218.100.88.244"
+description = "[AU] China Telecom Global - Sydney, Australia [218.100.88.244]"
+
+[hosts.speedtest_c1_syd1_dediserve_com]
+ip = "speedtest.c1.syd1.dediserve.com"
+description = "[AU] Dediserve - Sydney, Australia [speedtest.c1.syd1.dediserve.com]"
+
+[hosts.mirror_syd10_au_leaseweb_net]
+ip = "mirror.syd10.au.leaseweb.net"
+description = "[AU] LeaseWeb - Sydney, Australia [mirror.syd10.au.leaseweb.net]"
+
+[hosts.syd_smokeping_ovh_net]
+ip = "syd.smokeping.ovh.net"
+description = "[AU] OVH - Sydney, Australia [syd.smokeping.ovh.net]"
+
+[hosts.sydney-lg_ransomit_com_au]
+ip = "sydney-lg.ransomit.com.au"
+description = "[AU] Ransom IT - Sydney, Australia [sydney-lg.ransomit.com.au]"
+
+[hosts.speedtest_syd01_softlayer_com]
+ip = "speedtest.syd01.softlayer.com"
+description = "[AU] SoftLayer (syd01) - Sydney, Australia [speedtest.syd01.softlayer.com]"
+
+[hosts.syd1_speedtest_telstra_net]
+ip = "syd1.speedtest.telstra.net"
+description = "[AU] Telstra - Sydney, Australia [syd1.speedtest.telstra.net]"
+
+[hosts.speedtest_syd_m2core_net_au]
+ip = "speedtest.syd.m2core.net.au"
+description = "[AU] Vocus - Sydney, Australia [speedtest.syd.m2core.net.au]"
+
+[hosts.syd-au-ping_vultr_com]
+ip = "syd-au-ping.vultr.com"
+description = "[AU] Vultr - Sydney, Australia [syd-au-ping.vultr.com]"
+
+[hosts.speedtest_c1_mel1_dediserve_com]
+ip = "speedtest.c1.mel1.dediserve.com"
+description = "[AU] Dediserve - Melbourne, Australia [speedtest.c1.mel1.dediserve.com]"
+
+[hosts.lg_flowvps_com]
+ip = "lg.flowvps.com"
+description = "[AU] FlowVPS @ Equinix ME1 - Melbourne, Australia [lg.flowvps.com]"
+
+[hosts.melbourne-lg_ransomit_com_au]
+ip = "melbourne-lg.ransomit.com.au"
+description = "[AU] Ransom IT - Melbourne, Australia [melbourne-lg.ransomit.com.au]"
+
+[hosts.speedtest_mel01_softlayer_com]
+ip = "speedtest.mel01.softlayer.com"
+description = "[AU] SoftLayer (mel01) - Melbourne, Australia [speedtest.mel01.softlayer.com]"
+
+[hosts.brisbane-lg_ransomit_com_au]
+ip = "brisbane-lg.ransomit.com.au"
+description = "[AU] Ransom IT - Brisbane, Australia [brisbane-lg.ransomit.com.au]"
+
+[hosts.adelaide-lg_ransomit_com_au]
+ip = "adelaide-lg.ransomit.com.au"
+description = "[AU] Ransom IT - Adelaide, Australia [adelaide-lg.ransomit.com.au]"
+
+[hosts.ade1_speedtest_telstra_net]
+ip = "ade1.speedtest.telstra.net"
+description = "[AU] Telstra - Adelaide, Australia [ade1.speedtest.telstra.net]"
+
+[hosts.perth-lg_ransomit_com_au]
+ip = "perth-lg.ransomit.com.au"
+description = "[AU] Ransom IT - Perth, Australia [perth-lg.ransomit.com.au]"
+
+[hosts.speedtest_pth_m2core_net_au]
+ip = "speedtest.pth.m2core.net.au"
+description = "[AU] Vocus - Perth, Australia [speedtest.pth.m2core.net.au]"
+
+[hosts.auckland-lg_ransomit_com_au]
+ip = "auckland-lg.ransomit.com.au"
+description = "[NZ] Ransom IT - Auckland, New Zealand [auckland-lg.ransomit.com.au]"
+
+[hosts.speedtest_teleguam_net]
+ip = "speedtest.teleguam.net"
+description = "[US/GU] GTA Teleguam - Guam, United States [speedtest.teleguam.net]"
+
+[hosts.probe01_bne03_qld_vocus_net_au]
+ip = "probe01.bne03.qld.vocus.net.au"
+description = "[AU] Vocus - Brisbane, Australia [probe01.bne03.qld.vocus.net.au]"
+
+
+[hosts.probe01_bne05_qld_vocus_net_au]
+ip = "probe01.bne05.qld.vocus.net.au"
+description = "[AU] Vocus - Brisbane, Australia [probe01.bne05.qld.vocus.net.au]"
+
+[hosts.probe01_syd03_nsw_vocus_net_au]
+ip = "probe01.syd03.nsw.vocus.net.au"
+description = "[AU] Vocus - Sydney, Australia [probe01.syd03.nsw.vocus.net.au]"
+
+[hosts.probe01_syd04_nsw_vocus_net_au]
+ip = "probe01.syd03.nsw.vocus.net.au"
+description = "[AU] Vocus - Sydney, Australia [probe01.syd04.nsw.vocus.net.au]"
+
+[hosts.probe01_cbr01_act_vocus_net_au]
+ip = "probe01.cbr01.act.vocus.net.au"
+description = "[AU] Vocus - Canberra, Australia [probe01.cbr01.act.vocus.net.au]"
+
+[hosts.probe01_mel07_vic_vocus_net_au]
+ip = "probe01.mel07.vic.vocus.net.au"
+description = "[AU] Vocus - Melbourne, Australia [probe01.mel07.vic.vocus.net.au]"
+
+[hosts.probe01_mel11_vic_vocus_net_au]
+ip = "probe01.mel11.vic.vocus.net.au"
+description = "[AU] Vocus - Melbourne, Australia [probe01.mel11.vic.vocus.net.au]"
+
+[hosts.probe01_adl01_sa_vocus_net_au]
+ip = "probe01.adl01.sa.vocus.net.au"
+description = "[AU] Vocus - Adelaide, Australia [probe01.adl01.sa.vocus.net.au]"
+
+[hosts.probe01_per02_wa_vocus_net_au]
+ip = "probe01.per02.wa.vocus.net.au"
+description = "[AU] Vocus - Perth, Australia [probe01.per02.wa.vocus.net.au]"
+
+[hosts.probe01_sin01_sin_vocus_net]
+ip = "probe01.sin01.sin.vocus.net"
+description = "[SG] Vocus - Singapore [probe01.sin01.sin.vocus.net]"
+
+[hosts.probe01_hkg01_hkg_vocus_net]
+ip = "probe01.hkg01.hkg.vocus.net"
+description = "[HK] Vocus - Hong Kong, China [probe01.hkg01.hkg.vocus.net]"
+
+[hosts.probe01_lax01_ca_vocus_net]
+ip = "probe01.lax01.ca.vocus.net"
+description = "[US/CA] Vocus - Los Angeles, California [probe01.lax01.ca.vocus.net]"
+
+[hosts.probe01_sjc01_ca_vocus_net]
+ip = "probe01.sjc01.ca.vocus.net"
+description = "[US/CA] Vocus - San Jose, California [probe01.sjc01.ca.vocus.net]"
+
+[hosts.probe01_alb01_akl_vocus_net_nz]
+ip = "probe01.alb01.akl.vocus.net.nz"
+description = "[NZ] Vocus - Auckland, New Zealand [probe01.alb01.akl.vocus.net.nz]"
+
+[hosts.probe01_akl05_akl_vocus_net_nz]
+ip = "probe01.akl05.akl.vocus.net.nz"
+description = "[NZ] Vocus - Auckland, New Zealand [probe01.akl05.akl.vocus.net.nz]"
+
+[hosts.150_101_64_96]
+ip = "150.101.64.96"
+description = "[AU] iiNet - Darwin, Australia [150.101.64.96]"
+
+[hosts.resolv_qld_internode_on_net]
+ip = "resolv.qld.internode.on.net"
+description = "[AU] iiNet - Brisbane, Australia [resolv.qld.internode.on.net]"
+
+[hosts.smtp1_adl2_internode_on_net]
+ip = "smtp1.adl2.internode.on.net"
+description = "[AU] iiNet - Adelaide, Australia [smtp1.adl2.internode.on.net]"
+
+[hosts.resolv_tas_internode_on_net]
+ip = "resolv.tas.internode.on.net"
+description = "[AU] iiNet - Hobart, Australia [resolv.tas.internode.on.net]"
+
+[hosts.resolv_vic_internode_on_net]
+ip = "resolv.vic.internode.on.net"
+description = "[AU] iiNet - Melbourne, Australia [resolv.vic.internode.on.net]"
+
+[hosts.resolv_wa_internode_on_net]
+ip = "resolv.wa.internode.on.net"
+description = "[AU] iiNet - Perth, Australia [resolv.wa.internode.on.net]"
+
+[hosts.resolv_nsw_internode_on_net]
+ip = "resolv.nsw.internode.on.net"
+description = "[AU] iiNet - Sydney, Australia [resolv.nsw.internode.on.net]"
+
+[hosts.203_16_213_182]
+ip = "203.16.213.182"
+description = "[US/CA] iiNet - Los Angeles, California [203.16.213.182]"
+
+[hosts.203_16_213_178]
+ip = "203.16.213.178"
+description = "[US/CA] iiNet - San Jose, California [203.16.213.178]"
+
+[hosts.203_16_211_162]
+ip = "203.16.211.162"
+description = "[HK] iiNet - Hong Kong, China [203.16.211.162]"
+
+[hosts.lg_aussiebroadband_com_au]
+ip = "lg.aussiebroadband.com.au"
+description = "[AU] Aussie Broadband - Sydney, Australia [lg.aussiebroadband.com.au]"
+
+[hosts.lg-mel_aussiebroadband_com_au]
+ip = "lg-mel.aussiebroadband.com.au"
+description = "[AU] Aussie Broadband - Melbourne, Australia [lg-mel.aussiebroadband.com.au]"
+
+[hosts.lg-bne_aussiebroadband_com_au]
+ip = "lg-bne.aussiebroadband.com.au"
+description = "[AU] Aussie Broadband - Brisbane, Australia [lg-bne.aussiebroadband.com.au]"
+
+[hosts.lg-ade_aussiebroadband_com_au]
+ip = "lg-ade.aussiebroadband.com.au"
+description = "[AU] Aussie Broadband - Adelaide, Australia [lg-ade.aussiebroadband.com.au]"
+
+[hosts.lg-per_aussiebroadband_com_au]
+ip = "lg-per.aussiebroadband.com.au"
+description = "[AU] Aussie Broadband - Perth, Australia [lg-per.aussiebroadband.com.au]"
