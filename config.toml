@@ -3003,7 +3003,7 @@ description = "[AU] Aussie Broadband - Perth, Australia [lg-per.aussiebroadband.
 ip = "carmenta.launtel.net.au"
 description = "[AU] Launtel - Melbourne, Australia [carmenta.launtel.net.au]"
 
-[hosts.barmenta_launtel_net_au]
+[hosts.bacchus_launtel_net_au]
 ip = "bacchus.launtel.net.au"
 description = "[AU] Launtel - Hobart, Australia [bacchus.launtel.net.au]"
 
