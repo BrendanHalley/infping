@@ -2998,3 +2998,15 @@ description = "[AU] Aussie Broadband - Adelaide, Australia [lg-ade.aussiebroadba
 [hosts.lg-per_aussiebroadband_com_au]
 ip = "lg-per.aussiebroadband.com.au"
 description = "[AU] Aussie Broadband - Perth, Australia [lg-per.aussiebroadband.com.au]"
+
+[hosts.carmenta_launtel_net_au]
+ip = "carmenta.launtel.net.au"
+description = "[AU] Launtel - Melbourne, Australia [carmenta.launtel.net.au]"
+
+[hosts.barmenta_launtel_net_au]
+ip = "bacchus.launtel.net.au"
+description = "[AU] Launtel - Hobart, Australia [bacchus.launtel.net.au]"
+
+[hosts.jupiter_launtel_net_au]
+ip = "jupiter.launtel.net.au"
+description = "[AU] Launtel - Sydney, Australia [jupiter.launtel.net.au]"
