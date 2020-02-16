@@ -3010,3 +3010,7 @@ description = "[AU] Launtel - Hobart, Australia [bacchus.launtel.net.au]"
 [hosts.jupiter_launtel_net_au]
 ip = "jupiter.launtel.net.au"
 description = "[AU] Launtel - Sydney, Australia [jupiter.launtel.net.au]"
+
+[hosts.lg-v4_prg_skylonhost_com]
+ip = "lg-v4.prg.skylonhost.com"
+description = "[CZ] SkylonHost - Prague, Czech Republic [lg-v4.prg.skylonhost.com]"
