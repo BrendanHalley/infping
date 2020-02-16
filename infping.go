@@ -35,7 +35,7 @@ func slashSplitter(c rune) bool {
 }
 
 func readPoints(config *toml.Tree, con *client.Client) {
-    args := []string{"-B 1", "-D", "-r0", "-O 0", "-Q 10", "-p 1000", "-l"}
+    args := []string{"-B 1", "-D", "-r0", "-O 0", "-Q 10", "-p 5000", "-l"}
     ConfigHosts := config.Get("hosts").(*toml.Tree)
     hosts := ConfigHosts.ToMap()
     IPs := []string{}
